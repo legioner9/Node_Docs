@@ -1,0 +1,25 @@
+{
+  "name": "node_docs",
+  "version": "1.0.0",
+  "description": "\"# Node_Docs\"",
+  "main": "index.js",
+  "scripts": {
+    "dev_obj": "ndb node index.js name=Legioner9",
+    "ngrok_3003": "ngrok http 3003",
+    "dev_brk": "ndb node --inspect-brk index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/legioner9/Node_Docs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/legioner9/Node_Docs/issues"
+  },
+  "homepage": "https://github.com/legioner9/Node_Docs#readme",
+  "devDependencies": {
+    "ndb": "^1.1.5",
+    "ndb-inspect": "^0.0.1"
+  }
+}
