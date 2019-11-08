@@ -4,7 +4,7 @@
   "description": "\"# Node_Docs\"",
   "main": "index.js",
   "scripts": {
-    "dev_obj": "ndb node index.js name=Legioner9",
+    "dev_obj": "ndb node ./nodejs.org_DOCS/Stream/Fs_Streams/read_gzip_write.js name=Legioner9",
     "ngrok_3003": "ngrok http 3003",
     "dev_brk": "ndb node --inspect-brk index.js"
   },
