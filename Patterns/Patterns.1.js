@@ -19,6 +19,22 @@ const fn200 = t_f(200, fn);
 
 setTimeout(() => {
     fn100('first');
-    fn200('second');
+    fn200('second');//time life that fn more than 150 ms
 }, 150);
 
+/* TODO: PTR add cancelable to any func (kill into wrapper)  */
+const cancelable = fn => {
+    const wrapper = (...args) => {
+        if (fn) return fn(...args);
+    };
+    wrapper.cancel = () => {
+        fn = null;
+    };
+    return wrapper;
+};
+
+const cancel_fn = cancelable(fn);
+
+cancel_fn('first');
+cancel_fn.cancel();
+cancel_fn('second');// fn is kill into cancel_fn after cancel_fn.cancel()

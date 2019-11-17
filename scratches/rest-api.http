@@ -1,9 +1,0 @@
-POST http://localhost:3011/people
-Accept: */*
-Cache-Control: no-cache
-Contnt-Type: application/json
-
-{"name": "John"}
-
-###
-
