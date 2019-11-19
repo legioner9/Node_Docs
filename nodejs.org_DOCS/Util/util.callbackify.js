@@ -23,3 +23,5 @@ cb_pf((e, d) => {
     if (e) throw e;
     console.log('d::', d);
 });
+
+util.format('%o', fs);
