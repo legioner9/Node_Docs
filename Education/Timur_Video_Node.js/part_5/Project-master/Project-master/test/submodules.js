@@ -1,7 +1,7 @@
 'use strict';
 
 const metatests = require('metatests');
-const lib = require('..');
+const lib = require('../lib/lib');
 
 metatests.test('submodules', test => {
   test.strictSame(lib.method11(), 11);
