@@ -4,7 +4,7 @@
   "description": "\"# Node_Docs\"",
   "main": "index.js",
   "scripts": {
-    "dev": "ndb node Education/Timur_Video_Node.js/part_5/Project-master/Project-master/index.js",
+    "dev": "ndb node nodejs.org_DOCS/Require/cache.js",
     "ngrok_3003": "ngrok http 3003",
     "dev_brk": "ndb node --inspect-brk index.js"
   },
