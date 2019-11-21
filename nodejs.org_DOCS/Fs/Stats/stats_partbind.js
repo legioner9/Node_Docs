@@ -28,15 +28,8 @@ function path_stat(paths) {
     let stats = [];
     paths.forEach((path, i) => {
         console.dir({file: path, i});
-        fs.lstat(path, (err, stat) => {
-            if (err) {
-                console.log(`File ${path} not found`);
-            } else {
-                console.log({stats, 'paths.length': paths.length, i});
-                stats[i] = stat;
-                if (i === paths.length - 1) printResult(stats);
-            }
-        });
+        const cb = inLstat.bind(null, paths, stats, path, i);
+        fs.lstat(path, cb);
     });
 }
 
