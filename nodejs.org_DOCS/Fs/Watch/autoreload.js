@@ -1,13 +1,13 @@
 const fs = require('fs');
 const path = require('path');
 
-const load = (path_dir ,file_name)=> {
-    fs.readFile(path_, 'utf-8', (e, d) => {
+const load = path_from => {
+    fs.readFile(path_from, 'utf-8', (e, d) => {
         if (e) throw e;
-        const path_to = path.join(__dirname, '../', 'Copy', 'copy.txt');
-        console.log(`Read from ${path_}`);
+        const path_to = path.join(__dirname, 'Copy', file_name);
+        console.log(`Buf = ${d}`);
+        console.log(`Read from ${path_from}`);
         console.log(`Write to ${path_to}`);
-        debugger;
         write(path_to, d);
     })
 };
@@ -18,12 +18,14 @@ const write = (path, buf) => {
     })
 };
 
-const watch = path => {
-    fs.watch(path, (event, filename) => {
+const watch = filename => {
+    const path_watch = path.join(__dirname, filename);
+    fs.watch(path_watch, (event, filename) => {
         console.log({event, filename});
-        load(path);
+        load(path_watch);
     })
 };
 
-const path_dir = 'nodejs.org_DOCS/Fs/Watch';
-const file_name = 'From';
+const file_name = 'toCopy.txt';
+watch(file_name);
+
