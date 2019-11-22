@@ -24,10 +24,8 @@ const printResult = d => {
 
 
 function path_stat(paths) {
-    console.log({paths});
     let stats = [];
     paths.forEach((path, i) => {
-        console.dir({file: path, i});
         const cb = inLstat.bind(null, paths, stats, path, i);
         fs.lstat(path, cb);
     });
@@ -37,8 +35,15 @@ function inLstat(paths, stats, path, i, err, stat) {
     if (err) {
         console.log(`File ${path} not found`);
     } else {
-        console.log({stats, 'paths.length': paths.length, i});
         stats[i] = stat;
         if (i === paths.length - 1) printResult(stats);
     }
 }
+
+const add = (a, b) => a + b;
+const adding_3 = add.bind(null, 3);
+const adding_5 = add.bind(null, 5);
+
+debugger;
+let a = adding_3(11);
+let b = adding_5(-7);
