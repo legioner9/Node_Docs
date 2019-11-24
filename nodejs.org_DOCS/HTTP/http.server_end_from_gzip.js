@@ -5,14 +5,14 @@ const {Readable, Writable, Transform, pipeline} = require('stream');
 const path = require('path');
 const port = 3003;
 
-const rfs = fs.createReadStream(path.join(__dirname, 'Src', 'page_first.html'));
+const rs = fs.createReadStream(path.join(__dirname, 'Src', 'page_first.html'));
 const gs = zlib.createGzip();
 
 const server = http.createServer((req, res) => {
     console.log({req, res});
     res.writeHead(200, { 'Content-Encoding': 'gzip' });
     pipeline(
-        rfs,
+        rs,
         gs,
         res,
         (err) => {
