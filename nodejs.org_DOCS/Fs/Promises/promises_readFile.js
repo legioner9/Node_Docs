@@ -8,7 +8,8 @@ const main = async () => {
     }
 
     const d = fs.promises.readFile(path.join(__dirname, 'read.txt'), 'utf-8');
-    await d.then(data => {
+    console.log({data_0: d}); // d is the Promise
+    await d.then(data => { // data is all content of file
         console.dir({data});
         debugger;
     }, e => console.dir(e.message));
@@ -22,10 +23,13 @@ const asyncIterable = {
             i: 0,
             next() {
                 if (this.i < 3) {
-                    return Promise.resolve({ value: this.i++, done: false });
+                    return Promise.resolve({
+                        value: this.i++,
+                        done: false
+                    });
                 }
 
-                return Promise.resolve({ done: true });
+                return Promise.resolve({done: true});
             }
         };
     }
