@@ -1,9 +1,14 @@
 const {Readable, Writable} = require('stream');
+const fs = require('fs');
+const path = require('path');
 
-const rs = new Readable();
+const mrs = new Readable({
+    read(size) {
+        console.log(size);
+    }
+})
 
-
-rs.on('data', (e, d) => {
+mrs.on('data', (e, d) => {
     if (e) throw e;
     console.log({d});
 });
