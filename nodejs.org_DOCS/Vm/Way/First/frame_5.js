@@ -1,8 +1,12 @@
 const vm = require('vm');
 const fs = require('fs');
 const path = require('path');
+const timers = require('timers');
+const events = require('events');
 
 const x = 1;
+
+const api = {timers, events};
 
 const context = {
     module: {}, console,
@@ -19,15 +23,24 @@ const context = {
 // context.global = context;
 vm.createContext(context);
 
-fs.readFile(path.join(__dirname, 'code_3.js'), (e, code) => {
+fs.readFile(path.join(__dirname, 'code_5.js'), (e, code) => {
     if (e) throw e;
     runCode(code);
 });
 
 function runCode(d) {
     console.log({vmx: context.x, vmy: context.y});//{vmx: 2, vmy: undefined}
-    vm.runInContext(d, context);// sync calculation
-    console.log({vmx: context.x, vmy: context.y});//{vmx: 42, vmy:
+
+    d = `api => {${d}}`;
+
+    let script = new vm.Script(d, {timeout: 1000});
+    const f = script.runInNewContext(context, {timeout: 1000});
+// with inject api throw closure func
+    f(api);
+    const exported = context.module.exports;
+    console.log({exported}); // undefined timers not worked
+
+    console.log({vmx: context.x, vmy: context.y});//timers not worked {vmx: 2, vmy: undefined}
 }
 
 // y = undefined
