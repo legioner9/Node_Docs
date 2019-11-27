@@ -1,4 +1,5 @@
 'use strict';
+const path = require('path');
 
 const os = require('os');
 const cp = require('child_process');
@@ -9,7 +10,7 @@ const cpuCount = os.cpus().length;
 const workers = [];
 
 for (let i = 0; i < cpuCount; i++) {
-  const worker = cp.fork('./worker.js');
+  const worker = cp.fork(path.join(__dirname, 'worker'));
   console.log('Started worker:', worker.pid);
   workers.push(worker);
 }
