@@ -9,4 +9,5 @@ process.on("message", message => {
     const result_wo = Math.pow(message, message);
     process.send({result_wo});
 
+
 });

@@ -3,7 +3,7 @@ const os = require('os');
 const path = require('path');
 
 // const cpuCount = os.cpus().length;
-const cpuCount = 2;
+const cpuCount = 1;
 const wos = [];
 
 for (let i = 0; i < cpuCount; i++) {
@@ -22,17 +22,17 @@ wos.forEach(wo => {
     });
     wo.on('message', message => {
 
-        console.log(`Response from ${wo.pid}`, message);
+        console.log(`Response from wo ${wo.pid}`, message);// if e EMPTY (((
+        if (!message['e']) {
+            result.push(message.result_wo);
 
-        result.push(message.result_wo);
+            if (result.length === cpuCount) {
+                console.log('result ::', result);
 
-        if (result.length === cpuCount) {
-            console.log('result::', result);
-            // process.exit(0);
+            }
         }
     });
-    wo.on('error', e => console.log(e.message));
-
+    wo.on('error', e => console.log('on_err ::', e.message));
     wo.send('stop');
 
 });
