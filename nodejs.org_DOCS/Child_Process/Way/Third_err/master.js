@@ -6,6 +6,8 @@ const path = require('path');
 const cpuCount = 1;
 const wos = [];
 
+console.log('Master start :: ', process.pid);
+
 for (let i = 0; i < cpuCount; i++) {
     const wo = cp.fork(path.join(__dirname, 'worker'));
     wos.push(wo);
@@ -24,7 +26,7 @@ wos.forEach(wo => {
 
         console.log(`Response from wo ${wo.pid}`, message);// if e EMPTY (((
         if (!message['e']) {
-            result.push(message.result_wo);
+            result.push(message.res);
 
             if (result.length === cpuCount) {
                 console.log('result ::', result);

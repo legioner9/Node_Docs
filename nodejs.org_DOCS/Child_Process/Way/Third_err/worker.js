@@ -6,7 +6,7 @@ process.on("message", message => {
     if (message === 'stop') process.exit(0);
 
     try {
-        treatmentMes(message)
+        treatmentMes(message);
 
     } catch (e) {
         console.log('err from wo :: ', process.pid, e.message);
@@ -18,5 +18,6 @@ process.on("message", message => {
 
 function treatmentMes(mess) {
     console.log('Message in worker :: ', mess, process.pid,);
-    return Math.pow(mess, mes);
+    const res = Math.pow(mess, mess);
+    process.send({res})
 }
