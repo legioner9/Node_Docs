@@ -14,4 +14,5 @@ const server = net.createServer(socket => {
   });
 });
 
-server.listen(2000);
+server.listen(2000, ()=>console.log('Start server at' +
+    ' 2000'));
