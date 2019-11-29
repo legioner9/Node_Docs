@@ -6,17 +6,19 @@ const hostname = '127.0.0.1';
 const port = 8000;
 
 const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello World\n');
+    res.statusCode = 200;
+    res.setHeader('Content-Type', 'text/plain');
+    res.end('Hello World\n');
 });
 
 server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
+    console.log(`Server running at http://${hostname}:${port}/`);
 });
 
 server.on('error', err => {
-  if (err.code === 'EACCES') {
-    console.log(`No access to port: ${port}`);
-  }
+    if (err.code === 'EACCES') {
+        console.log(`No access to port: ${port}`);
+    } else if (err) {
+        console.log({err});
+    }
 });
