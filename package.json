@@ -4,8 +4,8 @@
   "description": "\"# Node_Docs\"",
   "main": "index.js",
   "scripts": {
-    "dev": "ndb node Education/Timur_Video_Node.js/part_10/NodeServer-master/native-simple/Way/serv_rout_simple.js",
-    "dev_client": "ndb node Education/Timur_Video_Node.js/part_10/NodeServer-master/native-simple/Way/client.js",
+    "dev": "ndb node Practice/Any_Serves/http_advanced_srv_client/server.js",
+    "dev_client": "ndb node Practice/Any_Serves/http_advanced_srv_client/Way/client.js",
     "ngrok_3003": "ngrok http 3003",
     "dev_brk": "ndb node --inspect-brk index.js"
   },
@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "metasync": "^0.3.31"
+    "metasync": "^0.3.31",
+    "node": "^13.1.0"
   }
 }

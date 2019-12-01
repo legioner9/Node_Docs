@@ -3,6 +3,8 @@
 const http = require('http');
 
 const user = { name: 'jura', age: 22 };
+const port = 3005;
+const host = '127.0.0.1';
 
 const routing = {
   '/': 'welcome to homepage',
@@ -51,4 +53,6 @@ const router = client => {
 
 http.createServer((req, res) => {
   res.end(router({ req, res }) + '');
-}).listen(8000);
+}).listen(port, host, () => {
+  console.log(`Server start at http://${host}:${port}`)
+});

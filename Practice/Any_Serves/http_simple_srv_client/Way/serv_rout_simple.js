@@ -1,4 +1,6 @@
 'use strict';
+
+
 const http = require('http');
 
 const user = {name: 'Pavel', age: 24};
@@ -28,7 +30,7 @@ const types = {
     function: (fn, req, res) => JSON.stringify(fn(req, res)),
 }
 
-http.createServer((req, res) => {
+const server = http.createServer((req, res) => {
     const body_res = router({req, res});
     res.setHeader('Set-Cookie', ['type=ninja', 'language=javascript']);
     res.end(body_res);
@@ -47,11 +49,11 @@ server.on('clientError', (err, socket) => {
     socket.end('HTTP/1.1 400 Bad Request\r\n\r\n');
 });
 
-server.on('error', e => {
+server.on('error', err => {
     if (err.code === 'EACCES') {
         console.log(`No access to port: ${port}`);
     }
-    if (e) throw e;
+    if (err) throw err;
 });
 
 setInterval(() => user.age++, 2000);
