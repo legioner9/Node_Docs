@@ -1,0 +1,56 @@
+{
+  "name": "do",
+  "version": "0.5.9",
+  "description": "The simplest way to manage asynchronicity",
+  "license": "MIT",
+  "contributors": [
+    "Timur Shemsedinov <timur.shemsedinov@gmail.com>",
+    "Oleg Slobodskoi <oleg008@gmail.com>",
+    "Timoshenko Ivan <kerckh@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/metarhia/do"
+  },
+  "keywords": [
+    "metasync",
+    "callback",
+    "callbacks",
+    "promise",
+    "sync",
+    "async",
+    "chain",
+    "asyncronous",
+    "parallel",
+    "sequential",
+    "metarhia",
+    "step",
+    "control",
+    "flow",
+    "collector",
+    "errback",
+    "err-first",
+    "error-first",
+    "callback-last",
+    "datacollector",
+    "keycollector",
+    "composition"
+  ],
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "main": "./do.js",
+  "readmeFilename": "README.md",
+  "scripts": {
+    "test": "npm run lint && metatests test",
+    "lint": "eslint . && prettier -c \"**/*.js\" \"**/*.json\" \"**/*.md\" \".*rc\" \"**/*.yml\"",
+    "fmt": "prettier --write \"**/*.js\" \"**/*.json\" \"**/*.md\" \".*rc\" \"**/*.yml\""
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "metatests": "^0.7.1",
+    "prettier": "^1.18.2"
+  }
+}
