@@ -11,7 +11,7 @@ const display = files => {
     }
     console.log('Changes:');
     for (const item of changes) {
-            console.log(item.date.toISOString(), item.event, ':', item.file);
+        console.log(item.date.toISOString(), item.event, ':', item.file);
     }
     console.log('\nFiles:');
     for (const file of files) {

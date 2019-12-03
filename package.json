@@ -4,7 +4,7 @@
   "description": "\"# Node_Docs\"",
   "main": "index.js",
   "scripts": {
-    "dev": "ndb node Practice/Any_Serves/http_advanced_srv_client/server.js",
+    "dev": "ndb node nodejs.org_DOCS/Fs/Watch/ToServer/Way/to_server.js",
     "dev_client": "ndb node Practice/Any_Serves/http_advanced_srv_client/Way/client.js",
     "ngrok_3003": "ngrok http 3003",
     "dev_brk": "ndb node --inspect-brk index.js"
@@ -19,6 +19,10 @@
     "url": "https://github.com/legioner9/Node_Docs/issues"
   },
   "homepage": "https://github.com/legioner9/Node_Docs#readme",
+
+  "engines": {
+    "node": ">=0.7.0"
+  },
   "devDependencies": {
     "ndb": "^1.1.5",
     "ndb-inspect": "^0.0.1"
