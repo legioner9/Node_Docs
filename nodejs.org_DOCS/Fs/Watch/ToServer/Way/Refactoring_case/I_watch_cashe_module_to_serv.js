@@ -1,12 +1,11 @@
 'use strict';
 
-const fs = require('fs');
 const mod_path = require('path');
-const serv = require(mod_path.join(__dirname, 'S_serv_cacheFs_1.js'));
 
-const cashe = new Map();
-const lib = mod_path.join(__dirname, '/modules');
-console.log(lib);
+const dir_path = __dirname;
+const serv = require(mod_path.join(dir_path, 'S_serv_cacheFs_1.js'));
+const getCache = require(mod_path.join(dir_path, 'L_watchFs_cache.js'));
 
-serv(cashe);
-debugger;
+const cache = getCache(dir_path);
+
+serv(cache);
