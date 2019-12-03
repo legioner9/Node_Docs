@@ -3,6 +3,7 @@
 const fs = require('fs');
 const http = require('http');
 const mod_path = require('path');
+
 const port = 3005;
 const host = '127.0.0.1';
 
@@ -38,7 +39,7 @@ watch(dir_path);
 
 const server = http.createServer((req, res) => {
     const url = req.url.substring(1);// req.url = /1.txt
-    // substring(1) return from index = 19
+    // substring(1) return from index = 1 to end
     console.log({url, cache});
 
     const data = cache.get(url);

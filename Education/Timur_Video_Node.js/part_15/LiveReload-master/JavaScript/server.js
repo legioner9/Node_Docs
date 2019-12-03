@@ -2,6 +2,9 @@
 
 const fs = require('fs');
 const http = require('http');
+const port = 3005;
+const host = '127.0.0.1';
+
 
 const cache = new Map();
 const lib = './lib/';
@@ -46,7 +49,7 @@ const ls = (res, list) => {
   res.end('</html>');
 };
 
-http.createServer((req, res) => {
+const server = http.createServer((req, res) => {
   const url = req.url.substring(1);
   if (!url) return ls(res, cache.keys());
   const [mod, method] = url.split('/');
@@ -60,4 +63,17 @@ http.createServer((req, res) => {
     }
   }
   res.end('File ' + url + 'not found');
-}).listen(8000);
+}).listen(port, host, () => {
+  console.log(`Server start at http://${host}:${port}`)
+});
+
+server.on('clientError', (err, socket) => {
+  socket.end('HTTP/1.1 400 Bad Request\r\n\r\n');
+});
+
+server.on('error', err => {
+  if (err.code === 'EACCES') {
+    console.log(`No access to port: ${port}`);
+  }
+  if (err) throw err;
+});
