@@ -31,4 +31,4 @@ setTimeout(() => {
 
 setTimeout(() => {
   process.exit(0);
-}, 15000);
+}, 45000);
