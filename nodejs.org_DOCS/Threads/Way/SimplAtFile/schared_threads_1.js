@@ -9,18 +9,18 @@ if (isMainThread) {
     const arrint8 = new Int8Array(buffer);
     const arr_threads = [];
 
-    for (let i = 0; i < 2; i++) {
+    for (let i = 0; i < 10; i++) {
         arr_threads[i] = new Worker(__filename, {workerData: buffer});
     }
 
 } else {
     const array = new Int8Array(workerData);
-    const value = threadId === 1 ? 1 : -1;
+    const value = threadId % 2 === 1 ? 1 : -1;
     setInterval(() => {
         for (let i = 0; i < 10; i++) {
             array[i] += value;
         }
-        console.log([threadId, array]);
+        console.log([threadId, value, array]);
     }, 100);
 
 }
