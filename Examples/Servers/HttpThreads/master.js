@@ -13,8 +13,10 @@ worker.on('message', msg => {
     }
 });
 
-process.on('SIGINT', () => {
-    worker.terminate(() => {
-        console.log('HTTP Server Stopped');
-    });
+process.on('SIGTERM', () => {
+    worker.terminate()
+        .then(code => console.log({code}))
+        .catch(e => {
+            if (e) console.error(e)
+        });
 });
