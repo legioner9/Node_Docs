@@ -4,7 +4,7 @@
   "description": "\"# Node_Docs\"",
   "main": "index.js",
   "scripts": {
-    "dev": "ndb node nodejs.org_DOCS/_node_js.SecondLevelAbstracts/Mutex/Way/race_condition_inc_arr.js",
+    "dev": "ndb nodejs.org_DOCS/_node_js.SecondLevelAbstracts/Semaphore/Way/ThrowAtomicsCount_safe/schared_threads_throw_Atomics_safeSMPF.js",
     "dev_client": "ndb node Practice/Any_Serves/http_advanced_srv_client/Way/client.js",
     "ngrok_3003": "ngrok http 3003",
     "dev_brk": "ndb node --inspect-brk index.js",
@@ -21,7 +21,6 @@
     "url": "https://github.com/legioner9/Node_Docs/issues"
   },
   "homepage": "https://github.com/legioner9/Node_Docs#readme",
-
   "engines": {
     "node": ">=0.7.0"
   },

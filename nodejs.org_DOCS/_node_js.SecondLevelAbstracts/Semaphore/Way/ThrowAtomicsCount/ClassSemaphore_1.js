@@ -89,35 +89,9 @@ class CountAtomicsSMPH {
     }
 }
 
-class CountAtomics_safeSMPH {
-    constructor ( shared, offset = 0, initial ) {
-        this.count = new Int32Array ( shared, offset, 1 );
-        if ( typeof initial === 'number' ) {
-            Atomics.store ( this.count, 0, initial );
-        }
-    }
-
-    enter () {
-        while ( true ) {
-            Atomics.wait ( this.count, 0, 0 );
-            const n = Atomics.load ( this.count, 0 );
-            if ( n > 0 ) {
-                const prev = Atomics.compareExchange ( this.count, 0, n, n - 1 );
-                if ( prev === n ) return;
-            }
-        }
-    }
-
-    leave () {
-        Atomics.add ( this.count, 0, 1 );
-        Atomics.notify ( this.count, 0, 1 );
-    }
-}
-
 module.exports = {
     BinarySMPH,
     CountSMPH,
     CallbackQueueSMPH,
     CountAtomicsSMPH,
-    CountAtomics_safeSMPH,
 };
