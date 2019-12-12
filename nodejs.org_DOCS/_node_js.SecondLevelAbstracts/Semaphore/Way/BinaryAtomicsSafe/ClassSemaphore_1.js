@@ -116,21 +116,25 @@ class CountAtomics_safeSMPH {
 
 class BinaryAtomicsSafeSMPH {
     constructor ( shared, offset = 0, init = false ) {
-        this.lock = new Int8Array ( shared, offset, 1 );
-        if ( init ) this.lock[0] = UNLOCK;
+        this.lock = new Int32Array ( shared, offset, 1 );
+        if ( init ) Atomics.store ( this.lock, 0, UNLOCK );
     }
 
     enter () {
-        while ( this.lock[0] === LOCK ) ;
-        this.lock[0] = LOCK;
+        let prev = Atomics.exchange ( this.lock, 0, LOCK );
+        while ( prev === LOCK ) {
+            Atomics.wait ( this.lock, 0, LOCK );
+            prev = Atomics.exchange ( this.lock, 0, LOCK );
+        }
     }
 
     leave () {
-        if ( this.lock[0] === UNLOCK ) {
+        if ( Atomics.load ( this.lock, 0 ) === UNLOCK ) {
             throw new Error ( 'Cannot leave unlocked' +
-                                  ' BinarySMPH' );
+                                  ' BinaryAtomicsSMPH' );
         }
-        this.lock[0] = UNLOCK;
+        Atomics.store ( this.lock, 0, UNLOCK );
+        Atomics.notify ( this.lock, 0, 1 );
     }
 }
 

@@ -14,7 +14,9 @@ class Mutex {
   }
 
   enter(callback) {
+    console.log(`Wait in worker${threads.threadId}`);
     Atomics.wait(this.lock, 0, LOCKED);
+    console.log(`endWait in worker${threads.threadId}`);
     Atomics.store(this.lock, 0, LOCKED);
     this.owner = true;
     setTimeout(callback, 0);
@@ -42,30 +44,17 @@ if (isMainThread) {
   const mutex1 = new Mutex(workerData);
   const mutex2 = new Mutex(workerData, 4);
 
-  if (threadId === 1) {
+  const loop = () => {
     mutex1.enter(() => {
-      console.log('Entered mutex1 from worker1');
-      setTimeout(() => {
-        mutex2.enter(() => {
-          console.log('Entered mutex2 from worker1');
-          if (mutex1.leave()) console.log('Left mutex1 from worker1');
-          if (mutex2.leave()) console.log('Left mutex2 from worker1');
-        });
-      }, 100);
+      console.log(`Entered mutex1 from worker${threadId}`);
+      if (mutex1.leave()) console.log(`Left mutex1 from worker${threadId}`);
     });
-  } else {
     mutex2.enter(() => {
-      console.log('Entered mutex2 from worker2');
-      // Uncomment to fix deadlock
-      if (mutex2.leave()) console.log('Left mutex2 from worker2');
-      setTimeout(() => {
-        mutex1.enter(() => {
-          console.log('Entered mutex1 from worker2');
-          if (mutex2.leave()) console.log('Left mutex2 from worker2');
-          if (mutex1.leave()) console.log('Left mutex1 from worker2');
-        });
-      }, 100);
+      console.log(`Entered mutex2 from worker${threadId}`);
+      if (mutex2.leave()) console.log(`Left mutex2 from worker${threadId}`);
     });
-  }
+    setTimeout(loop, 0);
+  };
+  loop();
 
 }

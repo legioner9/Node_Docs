@@ -18,6 +18,7 @@ class Mutex {
         Atomics.store ( this.lock, 0, LOCKED );
         this.owner = true;
         setTimeout ( callback, 0 );
+        return true;
     }
 
     leave () {
@@ -25,6 +26,7 @@ class Mutex {
         Atomics.store ( this.lock, 0, UNLOCKED );
         Atomics.notify ( this.lock, 0, 1 );
         this.owner = false;
+        return true;
     }
 }
 
@@ -45,10 +47,8 @@ else {
 
     if ( threadId === 1 ) {
         mutex1.enter ( () => {
-            debugger;
             console.log ( 'Entered mutex1 from worker1' );
             setTimeout ( () => {
-                debugger;
                 mutex2.enter ( () => {
                     console.log ( 'Entered mutex2 from worker1' );
                     if ( mutex1.leave () ) console.log ( 'Left mutex1 from worker1' );
@@ -59,15 +59,13 @@ else {
     }
     else {
         mutex2.enter ( () => {
-            debugger;
-            console.log ( 'Entered mutex2 from worker2' );
+            console.log ( 'Entered mutex2 from worker2 mutex2.leave ()::', mutex2.leave () );
             // Uncomment to fix deadlock
             if ( mutex2.leave () ) console.log ( 'Left mutex2 from worker2' );
             setTimeout ( () => {
-                debugger;
                 mutex1.enter ( () => {
                     console.log ( 'Entered mutex1 from worker2' );
-                    // if ( mutex2.leave () ) console.log ( 'Left mutex2 from worker2' );
+                    if ( mutex2.leave () ) console.log ( 'Left mutex2 from worker2' );
                     if ( mutex1.leave () ) console.log ( 'Left mutex1 from worker2' );
                 } );
             }, 100 );
