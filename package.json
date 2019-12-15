@@ -4,7 +4,7 @@
   "description": "\"# Node_Docs\"",
   "main": "index.js",
   "scripts": {
-    "dev": "ndb js_DOCS/Promise/PromiseError/TSH_19/8-multiple.js",
+    "dev": "ndb Education/Timur_Video_Node.js/part_20/Session-master/JavaScript/server.js",
     "dev_client": "ndb node Practice/Any_Serves/http_advanced_srv_client/Way/client.js",
     "ngrok_3003": "ngrok http 3003",
     "dev_brk": "ndb node --inspect-brk index.js",
