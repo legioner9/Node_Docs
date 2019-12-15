@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const v8 = require('v8');
 
-const PATH = path.join(__dirname,);
+const PATH = path.join(__dirname,'sessions');
 
 const safePath = fn => (token, ...args) => {
   const callback = args[args.length - 1];

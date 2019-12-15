@@ -4,7 +4,7 @@
   "description": "\"# Node_Docs\"",
   "main": "index.js",
   "scripts": {
-    "dev": "ndb Education/Timur_Video_Node.js/part_20/Session-master/JavaScript/server.js",
+    "dev": "ndb nodejs.org_DOCS/_node_js.SecondLevelAbstracts/Sessions/TSH_20_example/Way/BaseServerResReq/ServWithCookies/serv_rout_simple.js",
     "dev_client": "ndb node Practice/Any_Serves/http_advanced_srv_client/Way/client.js",
     "ngrok_3003": "ngrok http 3003",
     "dev_brk": "ndb node --inspect-brk index.js",
