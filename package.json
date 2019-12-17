@@ -4,7 +4,7 @@
   "description": "\"# Node_Docs\"",
   "main": "index.js",
   "scripts": {
-    "dev": "ndb Education/ITVDN_Video_Node.js/1/Samples_Way/010_Caching_Way/main.js",
+    "dev": "ndb Education/ITVDN_Video_Node.js/2/Samples_Way/002_CustomEvents/Classify/main_from_class.js",
     "dev_client": "ndb node Practice/Any_Serves/http_advanced_srv_client/Way/client.js",
     "ngrok_3003": "ngrok http 3003",
     "dev_brk": "ndb node --inspect-brk index.js",

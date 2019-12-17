@@ -2,7 +2,7 @@ console.log('File A is loading...');
 
 exports.done = false;
 
-var b = require('./testB.js');
+const b = require('./testB.js');
 console.log('in testA, testB.done = ', b.done);
 
 exports.done = true;
