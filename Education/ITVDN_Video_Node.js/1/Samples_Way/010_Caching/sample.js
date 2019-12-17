@@ -1,4 +1,4 @@
-const test = require('./cache');
+var test = require('./cache');
 
 test.fname = 'Sergey';
 test.age = 30;
