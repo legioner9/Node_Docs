@@ -1,6 +1,7 @@
-const mod = require('./mod.js');
+const mod = require ( './mod.js' );
+debugger;
 // Объект module хранит информацию о текущем модуле
-console.log(module);
+console.log ( module );
 
 //Module {
 //  id: '.',                                        - путь к запускаемому файлу

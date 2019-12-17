@@ -4,7 +4,7 @@
   "description": "\"# Node_Docs\"",
   "main": "index.js",
   "scripts": {
-    "dev": "ndb nodejs.org_DOCS/_node_js.SecondLevelAbstracts/Sessions/TSH_20_example/Way/BaseServerResReq/ServWithCookies/serv_rout_simple.js",
+    "dev": "ndb Education/ITVDN_Video_Node.js/1/Samples_Way/008_Parent_Way/dbConnection.js",
     "dev_client": "ndb node Practice/Any_Serves/http_advanced_srv_client/Way/client.js",
     "ngrok_3003": "ngrok http 3003",
     "dev_brk": "ndb node --inspect-brk index.js",
