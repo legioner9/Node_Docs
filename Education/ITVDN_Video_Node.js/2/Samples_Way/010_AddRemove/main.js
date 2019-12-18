@@ -5,13 +5,13 @@ var emt = new evt();
 var count = 0;
 // придобавлении нового подписчика, генерируется событие newListener
 emt.on('newListener', function(event, listener){
-    if(event == 'myEvent'){
+    if(event === 'myEvent'){
         console.log('myEvent was be added to emt.')
     }
 });
 // когда подписчик удаляется, срабатывает событие removeListener
 emt.on('removeListener', function(event, listener){
-    if(event == 'myEvent'){
+    if(event === 'myEvent'){
         console.log('myEvent was be remowed from emt.')
     }
 });

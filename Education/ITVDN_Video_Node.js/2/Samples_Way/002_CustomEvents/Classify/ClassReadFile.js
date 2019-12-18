@@ -20,11 +20,10 @@ class ClassReadFile extends ( require ( 'events' ).EventEmitter ) {
 
     _read () {
         console.log ( 'Loading...' );
-        fs.readFile ( this.file,'utf-8' ,( e, d ) => {
+        fs.readFile ( this.file, 'utf-8', ( e, d ) => {
             if ( e ) throw e;
             this.emit ( 'readData', d );// данные считанные из файла
         } );
-
 
         console.log ( 'Data was read.' );
 
