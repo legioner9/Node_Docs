@@ -15,11 +15,11 @@ emt.on ( 'even', () => console.log ( 'B' ) );
 const ev = emt._events.even; // single events_arr -- even without even[0];
 
 //remove index 0
-function removeIndexNull ( emtitter, even) {
+function removeIndexNull ( emitter, even) {
     let rem_event;
-    if ( typeof emtitter._events[even][0] === 'function' ) rem_event = emtitter._events[even][0];
-    else rem_event = emtitter._events[even];
-    emt.removeListener ( even, rem_event );
+    if ( typeof emitter._events[even][0] === 'function' ) rem_event = emitter._events[even][0];
+    else rem_event = emitter._events[even];
+    emitter.removeListener ( even, rem_event );
 }
 
 debugger;
