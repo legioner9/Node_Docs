@@ -4,7 +4,7 @@
   "description": "\"# Node_Docs\"",
   "main": "index.js",
   "scripts": {
-    "dev": "ndb Examples/ContextsFunc/callback_context.js",
+    "dev": "ndb nodejs.org_DOCS/Stream/StepTwo/TransformStream/ChainPipe/str_arr_obj_str.js",
     "dev_client": "ndb node Practice/Any_Serves/http_advanced_srv_client/Way/client.js",
     "ngrok_3003": "ngrok http 3003",
     "dev_brk": "ndb node --inspect-brk index.js",
@@ -31,6 +31,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "metasync": "^0.3.31",
-    "node": "^13.1.0"
+    "node": "^13.1.0",
+    "request": "^2.88.0"
   }
 }
