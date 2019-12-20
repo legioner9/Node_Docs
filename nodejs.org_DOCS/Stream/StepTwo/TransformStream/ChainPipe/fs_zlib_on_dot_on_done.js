@@ -5,4 +5,6 @@ const file = process.argv[2];
 
 fs.createReadStream ( my_path.join ( __dirname, 'SrcGzip', ( file + '.txt' ) ) )
     .pipe ( zlib.createGzip () )
-    .pipe ( fs.createWriteStream ( my_path.join ( __dirname, 'SrcGzip', ( file + '.gz' ) ) ) );
+    .on('data',()=>process.stdout.write('.'))
+    .pipe ( fs.createWriteStream ( my_path.join ( __dirname, 'SrcGzip', ( file + '.gz' ) ) ) )
+    .on('finish',()=>process.stdout.write('Done'));

@@ -4,7 +4,8 @@
   "description": "\"# Node_Docs\"",
   "main": "index.js",
   "scripts": {
-    "dev": "ndb nodejs.org_DOCS/Stream/StepTwo/TransformStream/ChainPipe/str_arr_obj_str.js",
+    "dev": "ndb nodejs.org_DOCS/Stream/StepTwo/TransformStream/ChainPipe/fs_zlib.js",
+    "dev_Gzip": "node nodejs.org_DOCS/Stream/StepTwo/TransformStream/ChainPipe/fs_decripto_zlib_fs_on_ClassReportProgress_on_done.js data",
     "dev_client": "ndb node Practice/Any_Serves/http_advanced_srv_client/Way/client.js",
     "ngrok_3003": "ngrok http 3003",
     "dev_brk": "ndb node --inspect-brk index.js",
