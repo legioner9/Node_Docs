@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const _ = require('../../../Callout/index.js');
+const _ = require( '../../../../Callout');
 
 
 fs.readFile(path.join(__dirname, 'read_write_file_async*.js'), 'utf-8', (e, d) => {

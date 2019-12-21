@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path_ = require('path');
-const _ = require('../../../Callout/index.js');
+const _ = require( '../../../../Callout');
 
 fs.readdir(__dirname, (e, paths) => {
     if (e) {
