@@ -4,9 +4,9 @@
   "description": "\"# Node_Docs\"",
   "main": "index.js",
   "scripts": {
-    "dev": "ndb nodejs.org_DOCS/Stream/StepTwo/TransformStream/ChainPipe/fs_zlib.js",
+    "dev": "ndb mane.js",
     "dev_Gzip": "node nodejs.org_DOCS/Stream/StepTwo/TransformStream/ChainPipe/fs_decripto_zlib_fs_on_ClassReportProgress_on_done.js data",
-    "dev_client": "ndb node Practice/Any_Serves/http_advanced_srv_client/Way/client.js",
+    "dev_client": "ndb node NPM_/legioner9_ex2/Practice/Any_Serves/http_advanced_srv_client/Way/client.js",
     "ngrok_3003": "ngrok http 3003",
     "dev_brk": "ndb node --inspect-brk index.js",
     "dev_gc_CancelDefault_ourStart": "ndb node --expose-gc --nouse-idle-notification Education/Timur_Video_Node.js/part_16/MemoryLeaks-master/JavaScript/6-gc.js",
@@ -27,11 +27,11 @@
   },
   "devDependencies": {
     "ndb": "^1.1.5",
-    "ndb-inspect": "^0.0.1",
-    "legioner9_ex": "^0.0.0"
+    "ndb-inspect": "^0.0.1"
   },
   "dependencies": {
     "express": "^4.17.1",
+    "legioner9_ex1": "^1.0.1",
     "metasync": "^0.3.31",
     "node": "^13.5.0",
     "request": "^2.88.0"
