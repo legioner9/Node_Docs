@@ -8,8 +8,8 @@ server.on ( 'request', function ( request, response ) {
     console.log ( request.method );
 
     // Завершает конфигурацию ответ
-    response.end ();
-    // response.end("Responce is configured!", 'utf8', () => { console.log('finish'); });
+    // response.end ();
+    response.end("Responce is configured!", 'utf8', () => { console.log('finish'); });
 } );
 
 server.listen ( 8080 );

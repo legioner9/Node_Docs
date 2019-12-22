@@ -1,6 +1,6 @@
-const Ex = require ( 'legioner9_ex1' );
+const Ex = require ( 'legioner9_ex2' );
+// const legioner9 = require ( './NPM_/legioner9_ex2' );
 const utils = require ( 'util' );
-
 
 const handle = ( req, res ) => {
 
@@ -27,4 +27,5 @@ const handle = ( req, res ) => {
     res.end ();
 };
 
-Ex.SuServer ( handle );
+// Ex.SuServer ( legioner9.SuHandServ );
+Ex.ServCacheModulesOfMethods ();
