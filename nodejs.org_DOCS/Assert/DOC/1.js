@@ -3,7 +3,7 @@ const fs = require ( 'fs' );
 const my_path = require ( 'path' );
 const assert = require ( 'assert' );
 
-const Su_log = require ( './2' );
+const Ex = require ( 'legioner9_ex3' );
 
 const {
     AssertionError,
@@ -61,6 +61,6 @@ catch (e) {
     
     ${ new Date () }`;
 
-    Su_log ( str, 'LogErr_1.js.txt' ,'Log');
+    Ex.SuLog ( str, 'LogErr_1.js.txt' ,'Log');
 
 }

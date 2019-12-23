@@ -2,4 +2,5 @@
       SuServer,
       SuHandServ,
       ServCacheModulesOfMethods,
+      SuLog,
     
