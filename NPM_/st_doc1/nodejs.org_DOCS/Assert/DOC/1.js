@@ -6,7 +6,7 @@ const assert = require ( 'assert' );
 const {
     Su_log_to_file,
     SuTry,
-} = require ( './' );
+} = require ( './StTry' );
 
 const {
     AssertionError,
@@ -27,6 +27,8 @@ const {
     strictEqual,
     throws,
 } = assert;
+debugger;
+SuTry ( assert.strictEqual ) ( 'test_log.txt', my_path.join ( __dirname, 'TestLog' ), 3, 5 );
 
 const { message } = new assert.AssertionError ( {
                                                     actual: 1,
@@ -80,5 +82,5 @@ catch (err) {
 //     }
 // };
 
-SuTry ( assert.strictEqual ) ( 3, 5 );
+// SuTry ( assert.strictEqual ) ( 3, 5 );
 
