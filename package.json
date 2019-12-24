@@ -4,7 +4,7 @@
   "description": "\"# Node_Docs\"",
   "main": "index.js",
   "scripts": {
-    "dev": "ndb NPM_/legioner9_ex4/Feachures/destructuring.js",
+    "dev": "ndb NPM_/legioner9_ex4/nodejs.org_DOCS/Assert/DOC/1.js",
     "dev_Gzip": "node nodejs.org_DOCS/Stream/StepTwo/TransformStream/ChainPipe/fs_decripto_zlib_fs_on_ClassReportProgress_on_done.js data",
     "dev_client": "ndb node NPM_/legioner9_ex2/Practice/Any_Serves/http_advanced_srv_client/Way/client.js",
     "ngrok_3003": "ngrok http 3003",

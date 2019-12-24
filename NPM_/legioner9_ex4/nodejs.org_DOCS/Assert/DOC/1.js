@@ -61,6 +61,6 @@ catch (e) {
     
     ${ new Date () }`;
 
-    Su_log ( str, 'LogErr_1.js.txt' ,'Log');
+    Su_log ( str );
 
 }
