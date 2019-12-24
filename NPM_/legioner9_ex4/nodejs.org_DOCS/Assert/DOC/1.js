@@ -52,15 +52,30 @@ catch (err) {
     assert.strictEqual ( err.generatedMessage, true );
 }
 
-try {
-    assert.strictEqual ( 3, 5 );
-}
-catch (e) {
-    const str = `${ JSON.stringify ( e ) }
+// try {
+//     assert.strictEqual ( 3, 5 );
+// }
+// catch (e) {
+//     const str = `${ JSON.stringify ( e ) }
+//     ${ e.stack }
+//
+//     ${ new Date () }`;
+//
+//     Su_log ( str );
+//
+// }
+const SuTry = ( fn ) => ( ...args ) => {
+    try {
+        fn ( ...args );
+    }
+    catch (e) {
+        const str = `${ JSON.stringify ( e ) }
     ${ e.stack }
     
     ${ new Date () }`;
+        Su_log ( str );
+    }
+};
 
-    Su_log ( str );
+SuTry ( assert.strictEqual ) ( 3, 5 );
 
-}
