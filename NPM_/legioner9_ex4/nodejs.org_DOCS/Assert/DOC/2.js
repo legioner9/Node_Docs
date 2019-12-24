@@ -43,5 +43,20 @@ function s_log_to_file ( str, file_name, dir_name ) {
     );
 }
 
+const SuTry = ( fn ) => ( ...args ) => {
+    try {
+        fn ( ...args );
+    }
+    catch (e) {
+        const str = `${ JSON.stringify ( e ) }
+    ${ e.stack }
+    
+    ${ new Date () }`;
+        Su_log_to_file ( str );
+    }
+};
 
-module.exports = Su_log_to_file;
+module.exports = {
+    Su_log_to_file,
+    SuTry,
+};

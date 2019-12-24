@@ -3,7 +3,10 @@ const fs = require ( 'fs' );
 const my_path = require ( 'path' );
 const assert = require ( 'assert' );
 
-const Su_log = require ( './2' );
+const {
+    Su_log_to_file,
+    SuTry,
+} = require ( './' );
 
 const {
     AssertionError,
@@ -64,18 +67,18 @@ catch (err) {
 //     Su_log ( str );
 //
 // }
-const SuTry = ( fn ) => ( ...args ) => {
-    try {
-        fn ( ...args );
-    }
-    catch (e) {
-        const str = `${ JSON.stringify ( e ) }
-    ${ e.stack }
-    
-    ${ new Date () }`;
-        Su_log ( str );
-    }
-};
+// const SuTry = ( fn ) => ( ...args ) => {
+//     try {
+//         fn ( ...args );
+//     }
+//     catch (e) {
+//         const str = `${ JSON.stringify ( e ) }
+//     ${ e.stack }
+//
+//     ${ new Date () }`;
+//         Su_log ( str );
+//     }
+// };
 
 SuTry ( assert.strictEqual ) ( 3, 5 );
 
