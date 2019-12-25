@@ -15,6 +15,4 @@ function ServCacheModulesOfMethods () {
     serv ( cache );
 }
 
-module.exports = {
-    ServCacheModulesOfMethods,
-};
+module.exports = ServCacheModulesOfMethods;

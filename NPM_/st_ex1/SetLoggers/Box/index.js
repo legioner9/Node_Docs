@@ -4,7 +4,7 @@ const { Readable, Writable, Transform, pipeline } = require ( 'stream' );
 const fs = require ( 'fs' );
 const my_path = require ( 'path' );
 
-function Su_log_to_file ( str, file_name = 'SuLog.txt', dir_name = 'SuLog' ) {
+function SuLogToFile ( str, file_name = 'SuLog.txt', dir_name = 'SuLog' ) {
 
     fs.mkdir ( my_path.join ( dir_name ), { recursive: true }, ( err ) => {
         if ( err ) throw err;
@@ -56,12 +56,12 @@ const SuTry = ( fn ) => ( file, dir, ...args ) => {
     ${ e.stack }
     
     ${ new Date () }`;
-        Su_log_to_file ( str, file, dir );
+        SuLogToFile ( str, file, dir );
     }
 };
 
 // SuTry ( assert.strictEqual ) ( 'test_log.txt', my_path.join ( __dirname, 'TestLog' ), 3, 5 );
 module.exports = {
-    Su_log_to_file,
+    SuLogToFile,
     SuTry,
 };
