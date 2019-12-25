@@ -1,2 +1,2 @@
-const Ex = require ( './st_ex1' );
+const Ex = require ( 'st_ex1' );
 debugger;
