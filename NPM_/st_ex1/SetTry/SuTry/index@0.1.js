@@ -1,10 +1,6 @@
 const SuLogToFile = require ( '../../SetLoggers/SuLogToFile' );
 
 const SuTry = ( fn ) => ( file, dir, ...args ) => {
-
-
-
-
     try {
         fn ( ...args );
     }
