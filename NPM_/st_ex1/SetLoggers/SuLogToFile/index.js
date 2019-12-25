@@ -2,14 +2,24 @@ const fs = require ( 'fs' );
 const my_path = require ( 'path' );
 const { Readable, Writable, Transform, pipeline } = require ( 'stream' );
 
-
 function SuLogToFile ( str, file_name = 'SuLog.txt', dir_name = 'SuLog' ) {
 
-    fs.mkdir ( my_path.join ( dir_name ), { recursive: true }, ( err ) => {
-        if ( err ) throw err;
-        s_log_to_file ( str, my_path.join ( dir_name, file_name ) );
-    } );
+    switch (file_name) {
+        case '#to_cons':
+            s_log_to_cons_1 ( str );
+            break;
+
+        default:
+            fs.mkdir ( my_path.join ( dir_name ), { recursive: true }, ( err ) => {
+                if ( err ) throw err;
+                s_log_to_file ( str, my_path.join ( dir_name, file_name ) );
+            } );
+            break;
+    }
 }
+
+SuLogToFile.help = `file_name ?= '#to_cons'
+SuLogToFile ( str, file_name = 'SuLog.txt', dir_name = 'SuLog' )`;
 
 function s_log_to_file ( str, path ) {
 
@@ -43,6 +53,12 @@ function s_log_to_file ( str, path ) {
             }
         }
     );
+}
+
+function s_log_to_cons_1 ( str ) {
+
+    console.log ( str );
+
 }
 
 module.exports = SuLogToFile;

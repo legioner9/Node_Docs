@@ -3,10 +3,10 @@ const my_path = require ( 'path' );
 const { Readable, Writable, Transform, pipeline } = require ( 'stream' );
 
 function SuLogToFile ( str, file_name = 'SuLog.txt', dir_name = 'SuLog' ) {
+
     switch (file_name) {
-        case '#1':
+        case '#to_cons':
             s_log_to_cons_1 ( str );
-            //Здесь выполняются инструкции, если результат выражения равен value1
             break;
 
         default:
@@ -18,7 +18,8 @@ function SuLogToFile ( str, file_name = 'SuLog.txt', dir_name = 'SuLog' ) {
     }
 }
 
-SuLogToFile.help = ``;
+SuLogToFile.help = `file_name ?= '#to_cons'
+SuLogToFile ( str, file_name = 'SuLog.txt', dir_name = 'SuLog' )`;
 
 function s_log_to_file ( str, path ) {
 
@@ -52,6 +53,12 @@ function s_log_to_file ( str, path ) {
             }
         }
     );
+}
+
+function s_log_to_cons_1 ( str ) {
+
+    console.log ( str );
+
 }
 
 module.exports = SuLogToFile;

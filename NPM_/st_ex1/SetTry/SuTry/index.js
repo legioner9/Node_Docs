@@ -1,10 +1,7 @@
 const SuLogToFile = require ( '../../SetLoggers/SuLogToFile' );
+const assert = require ( 'assert' );
 
 const SuTry = ( fn ) => ( file, dir, ...args ) => {
-
-
-
-
     try {
         fn ( ...args );
     }
@@ -16,5 +13,8 @@ const SuTry = ( fn ) => ( file, dir, ...args ) => {
         SuLogToFile ( str, file, dir );
     }
 };
-// SuTry ( assert.strictEqual ) ( 'test_log.txt', my_path.join ( __dirname, 'TestLog' ), 3, 5 );
+
+SuTry.help = `'#to_cons'
+SuTry ( assert.strictEqual ) ( 'test_log.txt', my_path.join ( __dirname, 'TestLog' ), 3, 5 );`;
+
 module.exports = SuTry;
