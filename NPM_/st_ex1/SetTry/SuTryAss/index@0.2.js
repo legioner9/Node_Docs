@@ -1,4 +1,4 @@
-const SuLogToFile = require ( '../../SetLoggers/SuLogToFile' );
+const SuLogToFile = require ( '../../SetLoggers/SuLogToFile/index@0.1' );
 const assert = require ( 'assert' );
 
 const SuTry = ( fn ) => ( file, dir, ...args ) => {
@@ -7,9 +7,13 @@ const SuTry = ( fn ) => ( file, dir, ...args ) => {
     }
     catch (e) {
         const str = `${ JSON.stringify ( e ) }
-    ${ e.stack }
     
     ${ new Date () }`;
+    //--- it's enlarged format "str"---
+    //     const str = `${ JSON.stringify ( e ) }
+    // ${ e.stack }
+    //
+    // ${ new Date () }`;
         SuLogToFile ( str, file, dir );
     }
 };

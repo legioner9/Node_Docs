@@ -16,5 +16,6 @@ function ServCacheModulesOfMethods () {
 }
 
 ServCacheModulesOfMethods.help = ``;
+ServCacheModulesOfMethods.call = () => console.log ( ServCacheModulesOfMethods );
 
 module.exports = ServCacheModulesOfMethods;

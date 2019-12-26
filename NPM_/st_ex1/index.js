@@ -9,6 +9,8 @@ arr_path.forEach ( item => {
         obj_exports[item] = ( require ( my_path.join ( __dirname, item, 'index.js' ) ) );
     }
 } );
+obj_exports.help = `HELP module.filename : ${module.filename}`;
+obj_exports.call = () => console.log ( obj_exports );
 module.exports = obj_exports;
 
 // const my_path = require ( 'path' );

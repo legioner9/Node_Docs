@@ -46,6 +46,6 @@ function SuHandServ ( req, res ) {
 }
 
 SuServer.help = ``;
-
+SuServer.call = () => console.log ( SuServer );
 module.exports = SuServer;
 

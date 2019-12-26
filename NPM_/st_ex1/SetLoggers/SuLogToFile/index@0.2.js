@@ -20,7 +20,6 @@ function SuLogToFile ( str, file_name = 'SuLog.txt', dir_name = 'SuLog' ) {
 
 SuLogToFile.help = `file_name ?= '#to_cons'
 SuLogToFile ( str, file_name = 'SuLog.txt', dir_name = 'SuLog' )`;
-SuLogToFile.call = () => console.log ( SuLogToFile );
 
 function s_log_to_file ( str, path ) {
 
@@ -61,5 +60,6 @@ function s_log_to_cons_1 ( str ) {
     console.log ( str );
 
 }
+
 
 module.exports = SuLogToFile;
