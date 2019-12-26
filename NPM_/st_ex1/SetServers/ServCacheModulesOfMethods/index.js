@@ -15,7 +15,7 @@ function ServCacheModulesOfMethods () {
     serv ( cache );
 }
 
-ServCacheModulesOfMethods.help = ``;
+ServCacheModulesOfMethods.help = `Ex.SetServers.ServCacheModulesOfMethods()`;
 ServCacheModulesOfMethods.call = () => console.log ( ServCacheModulesOfMethods );
 
 module.exports = ServCacheModulesOfMethods;
