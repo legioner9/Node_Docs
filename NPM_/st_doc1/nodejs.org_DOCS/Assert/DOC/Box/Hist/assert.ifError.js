@@ -10,7 +10,7 @@ function e_f_1() {
     e_f_0();
 }
 
-function assert_trasser() {
+function assert_trasser()  {
     try {
         assert.ifError(err)
     } catch (e) {

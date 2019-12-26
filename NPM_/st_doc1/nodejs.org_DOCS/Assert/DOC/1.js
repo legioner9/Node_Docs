@@ -1,84 +1,72 @@
-const { Readable, Writable, Transform, pipeline } = require ( 'stream' );
-const fs = require ( 'fs' );
-const my_path = require ( 'path' );
 const assert = require ( 'assert' );
-
-const st_ = require ( '../../../../mane' );
+const Ex = require ( 'st_ex1' );
+// Ex.call ();
+const su_try = Ex.SetTry.SuTryAss;
+// console.log ( su_try.help );
 
 const {
-    AssertionError,
-    deepEqual,
-    deepStrictEqual,
+    // AssertionError,
+    // deepEqual,
+    // deepStrictEqual,
     doesNotReject,
     doesNotThrow,
-    equal,
+    // equal,  // DEPR
     fail,
-    ifError,
-    notDeepEqual,
-    notDeepStrictEqual,
-    notEqual,
-    notStrictEqual,
-    ok,
+    // ifError,
+    // notDeepEqual,
+    // notDeepStrictEqual,
+    // notEqual,
+    // notStrictEqual,
+    // ok,
     rejects,
     strict,
-    strictEqual,
+    // strictEqual,
     throws,
 } = assert;
+
+// --- AssertionError ---
+
+console.log ( '--- deepEqual ---' );
+console.log ( '--- deepStrictEqual ---' );
+su_try ( assert.deepEqual ) ( '#to_cons', null, [ [ 1, 2 ], 3 ], [ [ 1, 2 ], '3' ] ); // true
+su_try ( assert.strict.deepEqual ) ( '#to_cons', null, [ [ 1, 2 ], 3 ], [ [ 1, 2 ], '3' ] ); // err:: "operator":"deepStrictEqual"
+su_try ( assert.deepStrictEqual ) ( '#to_cons', null, [ [ 1, 2 ], 3 ], [ [ 1, 2 ], '3' ] ); // err:: "operator":"deepStrictEqual"
+su_try ( assert.deepStrictEqual ) ( '#to_cons', null, [ [ 1, 2 ], 3 ], [ [ 1, 2 ], 3 ] ); //true
+su_try ( assert.deepStrictEqual ) ( '#to_cons', null, { a: 1 }, { a: 1 } ); // true
+console.log ( '--- End ---' );
+
+console.log ( '--- strictEqual ---' );
+su_try ( assert.strictEqual ) ( '#to_cons', null, 3, 5 ); // "actual":3,"expected":5,"operator":"strictEqual"
+su_try ( assert.strictEqual ) ( '#to_cons', null, '5', 5 ); // "actual":"5","expected":5,"operator":"strictEqual"
+su_try ( assert.strictEqual ) ( '#to_cons', null, [ [ 1, 2 ], 3 ], [ [ 1, 2 ], 3 ] ); //"actual":[[1,2],3],"expected":[[1,2],3],"operator":"strictEqual"
+su_try ( assert.strictEqual ) ( '#to_cons', null, 'a', 'a' ); // true
+su_try ( assert.strictEqual ) ( '#to_cons', null, { a: 1 }, { a: 1 } ); // true
+console.log ( '--- End ---' );
+
+console.log ( '--- ok ---' );
+su_try ( assert.ok.strict ) ( '#to_cons', null, true ); //
+su_try ( assert.ok.strict ) ( '#to_cons', null, 1 ); //
+su_try ( assert.ok.strict ) ( '#to_cons', null, ); // "expected":true,"operator":"=="
+su_try ( assert.ok.strict ) ( '#to_cons', null, false, 'it\'s false' ); // "actual":false,"expected":true,"operator":"=="
+su_try ( assert.ok.strict ) ( '#to_cons', null, typeof 123 === 'string' ); // "actual":false,"expected":true,"operator":"=="
+su_try ( assert.ok.strict ) ( '#to_cons', null, 0 ); // "actual":0,"expected":true,"operator":"=="
+console.log ( '--- end ---' );
+
+console.log ( '--- ifError ---' );
+// --- only null ---
+su_try ( assert.strict.ifError ) ( '#to_cons', null, null ); // true
+su_try ( assert.strict.ifError ) ( '#to_cons', null, 0 ); // "actual":0,"expected":null,"operator":"ifError"
+su_try ( assert.strict.ifError ) ( '#to_cons', null, new Error () ); //"actual":{},"expected":null,"operator":"ifError"
+console.log ( '--- end ---' );
+
+console.log ( '--- fail ---' );
+// generator AssertionError [ERR_ASSERTION]
+su_try ( assert.fail.strict ) ( '#to_cons', null,  ); // {} AssertionError [ERR_ASSERTION]: Failed
+su_try ( assert.fail.strict ) ( '#to_cons', null, 'boom' ); // {} AssertionError [ERR_ASSERTION]: boom
+su_try ( assert.fail.strict ) ( '#to_cons', null, new TypeError('need array') ); // {} TypeError: need array
+console.log ( '--- end ---' );
+// console.log ( '--- deepStrictEqual ---' );
 debugger;
 
-SuTry ( assert.strictEqual ) ( 'test_log.txt', my_path.join ( __dirname, 'TestLog' ), 3, 5 );
-
-const { message } = new assert.AssertionError ( {
-                                                    actual: 1,
-                                                    expected: 2,
-                                                    operator: 'strictEqual'
-                                                } );
-try {
-    assert.strictEqual ( 1, 2 );
-}
-catch (err) {
-    // actual: 1
-    // code: "ERR_ASSERTION"
-    // expected: 2
-    // generatedMessage: true
-    // operator: "strictEqual"
-    // message: "Expected values to be strictly equal:↵↵1 !== 2↵"
-    // name: "AssertionError"
-    // stack:"AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:↵↵1 !== 2↵↵    at Object.<anonymous> (D:\Node_Projects v.2\Node_Docs\nodejs.org_DOCS\Assert\DOC\1.js:29:12)↵    at Module._compile (internal/modules/cjs/loader.js:1139:30)↵    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1159:10)↵    at Module.load (internal/modules/cjs/loader.js:988:32)↵    at Function.Module._load (internal/modules/cjs/loader.js:896:14)↵    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)↵    at internal/main/run_main_module.js:17:47"
-    const a1 = assert ( err instanceof assert.AssertionError );
-    assert.strictEqual ( err.message, message ); //message: "Expected values to be strictly equal:↵↵1 !== 2↵"
-    assert.strictEqual ( err.name, 'AssertionError' );
-    assert.strictEqual ( err.actual, 1 );
-    assert.strictEqual ( err.expected, 2 );
-    assert.strictEqual ( err.code, 'ERR_ASSERTION' );
-    assert.strictEqual ( err.operator, 'strictEqual' );
-    assert.strictEqual ( err.generatedMessage, true );
-}
-
-// try {
-//     assert.strictEqual ( 3, 5 );
-// }
-// catch (e) {
-//     const str = `${ JSON.stringify ( e ) }
-//     ${ e.stack }
-//
-//     ${ new Date () }`;
-//
-//     Su_log ( str );
-//
-// }
-// const SuTry = ( fn ) => ( ...args ) => {
-//     try {
-//         fn ( ...args );
-//     }
-//     catch (e) {
-//         const str = `${ JSON.stringify ( e ) }
-//     ${ e.stack }
-//
-//     ${ new Date () }`;
-//         Su_log ( str );
-//     }
-// };
-
-// SuTry ( assert.strictEqual ) ( 3, 5 );
+su_try ( assert.strictEqual ) ( '#to_cons', null, 3, 5 );
 

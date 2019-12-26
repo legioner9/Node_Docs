@@ -1,4 +1,4 @@
-const SuLogToFile = require ( '../../SetLoggers/SuLogToFile/index@0.1' );
+const SuLogToFile = require ( '../../SetLoggers/LogTo/index@0.1' );
 const assert = require ( 'assert' );
 
 const SuTry = ( fn ) => ( file, dir, ...args ) => {
