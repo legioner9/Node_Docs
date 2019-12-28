@@ -59,8 +59,8 @@ const u2 = new Url (); // empty url ( prop:null )
 
 const u3 = fileURLToPath ( 'file:///C:/path/' );       // Correct:   C:\path\ (Windows)
 const u3_1 = fileURLToPath ( 'file://nas/foo.txt' );     // Correct:   \\nas\foo.txt (Windows)
-const u7 = pathToFileURL ( __filename ).href;          // file:///D:/Node_Projects%20v.2/Node_Docs/nodejs.org_DOCS/Url/DOC/1@0.1.js(Windows)
-const u7_1 = pathToFileURL ( __filename ).pathname;            ///D:/Node_Projects%20v.2/Node_Docs/nodejs.org_DOCS/Url/DOC/1@0.1.js(Windows)
+const u7 = pathToFileURL ( __filename ).href;          // file:///D:/Node_Projects%20v.2/Node_Docs/nodejs.org_DOCS/Url/DOC/1@0.1#1.js(Windows)
+const u7_1 = pathToFileURL ( __filename ).pathname;            ///D:/Node_Projects%20v.2/Node_Docs/nodejs.org_DOCS/Url/DOC/1@0.1#1.js(Windows)
 
 const u4 = format ( myURL, {
     fragment: false,
