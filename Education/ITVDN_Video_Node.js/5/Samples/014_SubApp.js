@@ -8,7 +8,7 @@ var user = express();
 
 app.get('/', function(req, res) {
 	res.writeHead(200, {'Content-Type':'text/html'}); 
-	res.write('<a href="/admin">admin page</a>');
+	res.write('<a href="/android">admin page</a>');
 	res.write('<br />');  
 	res.write('<a href="/user">user page</a>'); 
 	res.end(); 
