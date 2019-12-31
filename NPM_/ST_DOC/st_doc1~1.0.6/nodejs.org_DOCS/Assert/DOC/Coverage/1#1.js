@@ -44,7 +44,7 @@ catch (err) {
     // operator: "strictEqual"
     // message: "Expected values to be strictly equal:↵↵1 !== 2↵"
     // name: "AssertionError"
-    // stack:"AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:↵↵1 !== 2↵↵    at Object.<anonymous> (D:\Node_Projects v.2\Node_Docs\nodejs.org_DOCS\Assert\DOC\1@0.1.js:29:12)↵    at Module._compile (internal/modules/cjs/loader.js:1139:30)↵    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1159:10)↵    at Module.load (internal/modules/cjs/loader.js:988:32)↵    at Function.Module._load (internal/modules/cjs/loader.js:896:14)↵    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)↵    at internal/main/run_main_module.js:17:47"
+    // stack:"AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:↵↵1 !== 2↵↵    at Object.<anonymous> (D:\Node_Projects v.2\Node_Docs\nodejs.org_DOCS\Assert\DOC\1@0.1#1.js:29:12)↵    at Module._compile (internal/modules/cjs/loader.js:1139:30)↵    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1159:10)↵    at Module.load (internal/modules/cjs/loader.js:988:32)↵    at Function.Module._load (internal/modules/cjs/loader.js:896:14)↵    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)↵    at internal/main/run_main_module.js:17:47"
     const a1 = assert ( err instanceof assert.AssertionError );
     assert.strictEqual ( err.message, message ); //message: "Expected values to be strictly equal:↵↵1 !== 2↵"
     assert.strictEqual ( err.name, 'AssertionError' );

@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/ee" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/NPM_/ST_DOC/st_doc1@1.0.4" />
       <excludeFolder url="file://$MODULE_DIR$/NPM_/ST_DOC/st_doc1@1.0.5" />
+      <excludeFolder url="file://$MODULE_DIR$/NPM_/ST_DOC/st_doc1@1.0.6" />
       <excludeFolder url="file://$MODULE_DIR$/NPM_/ST_EX/st_ex1@1.2.5" />
       <excludeFolder url="file://$MODULE_DIR$/NPM_/ST_EX/st_ex1@1.2.6" />
       <excludeFolder url="file://$MODULE_DIR$/exc" />
