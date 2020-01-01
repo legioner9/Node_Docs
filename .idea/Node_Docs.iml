@@ -9,6 +9,7 @@
       <excludeFolder url="file://$MODULE_DIR$/NPM_/ST_DOC/st_doc1@1.0.6" />
       <excludeFolder url="file://$MODULE_DIR$/NPM_/ST_EX/st_ex1@1.2.5" />
       <excludeFolder url="file://$MODULE_DIR$/NPM_/ST_EX/st_ex1@1.2.6" />
+      <excludeFolder url="file://$MODULE_DIR$/NPM_/ST_EX/st_ex1@1.2.9" />
       <excludeFolder url="file://$MODULE_DIR$/exc" />
     </content>
     <orderEntry type="inheritedJdk" />
