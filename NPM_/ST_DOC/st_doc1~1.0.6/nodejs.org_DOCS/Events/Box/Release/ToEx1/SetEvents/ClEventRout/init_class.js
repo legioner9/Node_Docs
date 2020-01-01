@@ -1,4 +1,7 @@
-const Event_list = require ( './index' );
+// const Event_list = require ( './index' );
+const Ex = require ( 'st_ex1' );
+const Event_list = Ex.SetEvents.ClEventRout;
+
 const my_path = require ( 'path' );
 const help = Event_list.help;
 const event_list = new Event_list ();
