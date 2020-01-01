@@ -5,7 +5,6 @@ const fs = require ( 'fs' );
 class ClassReadFile extends ( require ( 'events' ).EventEmitter ) {
     constructor () {
         super ();
-
     }
 
     readDataFromFile ( path, callback ) {
