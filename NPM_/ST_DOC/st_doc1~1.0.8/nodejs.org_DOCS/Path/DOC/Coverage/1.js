@@ -17,7 +17,7 @@ const {
     win32,
 } = my_path;
 
-const p1 = basename ( __filename ); // 1@0.1#1.js
+const p1 = basename ( __filename ); // 1@0.1#my_read.js
 const p1_11 = basename ( '/foo/bar/baz/asdf/quux.html' );
 // Returns: 'quux.html'
 const p1_12 = basename ( '/foo/bar/baz/asdf/quux.html', '.html' );
@@ -125,9 +125,9 @@ const p12 = 'foo/bar/baz'.split ( sep ); // win sep: "\" posix sep: "/"
 //on POSIX Returns: ['foo', 'bar', 'baz']; but on Win ["foo/bar/baz"]
 const p12_1 = 'foo\\bar\\baz'.split ( sep );
 //On Windows Returns: ['foo', 'bar', 'baz']
-const p12_2 = __filename.split ( sep ); // ["D:", "Node_Projects v.2", "Node_Docs", "nodejs.org_DOCS", "Path", "DOC", "1@0.1#1.js"]
+const p12_2 = __filename.split ( sep ); // ["D:", "Node_Projects v.2", "Node_Docs", "nodejs.org_DOCS", "Path", "DOC", "1@0.1#my_read.js"]
 
-const p13 = toNamespacedPath ( __filename ); // "\\?\D:\Node_Projects v.2\Node_Docs\nodejs.org_DOCS\Path\DOC\1@0.1#1.js"
+const p13 = toNamespacedPath ( __filename ); // "\\?\D:\Node_Projects v.2\Node_Docs\nodejs.org_DOCS\Path\DOC\1@0.1#my_read.js"
 const p13_1 = toNamespacedPath ('file' , __filename ); // "\\?\D:\Node_Projects v.2\Node_Docs\file"
 
 debugger;
