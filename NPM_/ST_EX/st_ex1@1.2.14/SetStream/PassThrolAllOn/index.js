@@ -1,30 +1,30 @@
-function ReadAllOn ( readable ) {
-    if ( !( readable instanceof require ( 'stream' ).Readable ) ) throw new Error ( 'Arg is not Readable' );
-    readable.on ( 'data', ( args ) => {
+function PassThrolAllOn ( passthro ) {
+    if ( !( passthro instanceof require ( 'stream' ).PassThrough ) ) throw new Error ( 'Arg is not PassThrough' );
+    passthro.on ( 'data', ( args ) => {
         const data = { data: args };// args = close: IncomingMessage
         console.log ( 'Is res data', data );
         debugger;
     } );
 
-    readable.on ( 'readable', ( args ) => {
+    passthro.on ( 'readable', ( args ) => {
         const readable = { readable: args };// args = close: IncomingMessage
         console.log ( 'Is res readable', readable );
         debugger;
     } );
-
-    readable.on ( 'end', ( args ) => {
+ 
+    passthro.on ( 'end', ( args ) => {
         const end = { end: args };// args = close: IncomingMessage
         console.log ( 'Is res end', end );
         debugger;
     } );
 
-    readable.on ( 'error', ( args ) => {
+    passthro.on ( 'error', ( args ) => {
         const error = { error: args };// args = close: IncomingMessage
         console.log ( 'Is res error', error );
         debugger;
     } );
 
-    readable.on ( 'close', ( args ) => {
+    passthro.on ( 'close', ( args ) => {
         const close = { close: args };// args = close: IncomingMessage
         console.log ( 'Is res close', close );
         debugger;
@@ -32,8 +32,8 @@ function ReadAllOn ( readable ) {
 
 }
 
-ReadAllOn.help = `ReadAllOn ( readable )`;
+PassThrolAllOn.help = `DuplAllOn ( duplable )`;
 
-ReadAllOn.call = () => console.log ( ReadAllOn );
+PassThrolAllOn.call = () => console.log ( PassThrolAllOn );
 
-module.exports = ReadAllOn;
+module.exports = PassThrolAllOn;

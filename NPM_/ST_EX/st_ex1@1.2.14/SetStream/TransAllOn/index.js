@@ -1,30 +1,30 @@
-function ReadAllOn ( readable ) {
-    if ( !( readable instanceof require ( 'stream' ).Readable ) ) throw new Error ( 'Arg is not Readable' );
-    readable.on ( 'data', ( args ) => {
+function TransAllOn ( transable ) {
+    if ( !( transable instanceof require ( 'stream' ).Transform ) ) throw new Error ( 'Arg is not Transform' );
+    transable.on ( 'data', ( args ) => {
         const data = { data: args };// args = close: IncomingMessage
         console.log ( 'Is res data', data );
         debugger;
     } );
 
-    readable.on ( 'readable', ( args ) => {
+    transable.on ( 'readable', ( args ) => {
         const readable = { readable: args };// args = close: IncomingMessage
         console.log ( 'Is res readable', readable );
         debugger;
     } );
 
-    readable.on ( 'end', ( args ) => {
+    transable.on ( 'end', ( args ) => {
         const end = { end: args };// args = close: IncomingMessage
         console.log ( 'Is res end', end );
         debugger;
     } );
 
-    readable.on ( 'error', ( args ) => {
+    transable.on ( 'error', ( args ) => {
         const error = { error: args };// args = close: IncomingMessage
         console.log ( 'Is res error', error );
         debugger;
     } );
 
-    readable.on ( 'close', ( args ) => {
+    transable.on ( 'close', ( args ) => {
         const close = { close: args };// args = close: IncomingMessage
         console.log ( 'Is res close', close );
         debugger;
@@ -32,8 +32,8 @@ function ReadAllOn ( readable ) {
 
 }
 
-ReadAllOn.help = `ReadAllOn ( readable )`;
+TransAllOn.help = `ReadAllOn ( readable )`;
 
-ReadAllOn.call = () => console.log ( ReadAllOn );
+TransAllOn.call = () => console.log ( TransAllOn );
 
-module.exports = ReadAllOn;
+module.exports = TransAllOn;
