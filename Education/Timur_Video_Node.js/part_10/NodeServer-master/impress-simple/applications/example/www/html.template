@@ -16,7 +16,7 @@
 
   <script type="text/javascript" src="/js/eventsource.min.js"></script>
   <script type="text/javascript" src="/js/impress.js"></script>
-  <script type="text/javascript" src="/js/init_class.js"></script>
+  <script type="text/javascript" src="/js/~ClEventRout.js"></script>
 </head>
 <body>
   <div id="header">

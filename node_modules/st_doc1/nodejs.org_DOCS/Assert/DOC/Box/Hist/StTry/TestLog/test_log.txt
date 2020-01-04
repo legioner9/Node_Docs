@@ -3,7 +3,7 @@
 
 3 !== 5
 
-    at D:\Node_Projects v.2\Node_Docs\node_modules\st_ex1\Ingx\Loggers\index.js:50:9
+    at D:\Node_Projects v.2\Node_Docs\node_modules\st_ex1\Ingx\Loggers\index_.js:50:9
     at Object.<anonymous> (D:\Node_Projects v.2\Node_Docs\NPM_\st_doc1\nodejs.org_DOCS\Assert\DOC\Box\3.js:11:30)
     at Module._compile (internal/modules/cjs/loader.js:1139:30)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1159:10)

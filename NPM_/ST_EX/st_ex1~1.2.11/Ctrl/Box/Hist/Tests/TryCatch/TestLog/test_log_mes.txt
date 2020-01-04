@@ -1,6 +1,6 @@
 {"generatedMessage":false,"code":"ERR_ASSERTION","actual":3,"expected":5,"operator":"strictEqual"}
             AssertionError [ERR_ASSERTION]: ::your message::
-    at D:\Node_Projects v.2\Node_Docs\node_modules\st_ex1\SetTry\TryCatch\index.js:6:9
+    at D:\Node_Projects v.2\Node_Docs\node_modules\st_ex1\SetTry\TryCatch\index_.js:6:9
     at Object.<anonymous> (D:\Node_Projects v.2\Node_Docs\NPM_\st_ex1\Ctrl\Box\Hist\Tests\TryCatch\TryCatch_Assert.js:19:33)
     at Module._compile (internal/modules/cjs/loader.js:1139:30)
     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1159:10)

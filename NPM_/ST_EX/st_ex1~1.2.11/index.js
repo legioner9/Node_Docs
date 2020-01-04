@@ -4,9 +4,9 @@ const my_path = require ( 'path' );
 const obj_exports = {};
 const arr_path = fs.readdirSync ( __dirname );
 arr_path.forEach ( item => {
-    if ( item !== 'index.js' && item !== 'Box' && item !== 'Ctrl' && item !== 'README.md' && item !== 'package.json' ) {
+    if ( item !== 'index_.js' && item !== 'Box' && item !== 'Ctrl' && item !== 'README.md' && item !== 'package.json' ) {
 
-        obj_exports[item] = ( require ( my_path.join ( __dirname, item, 'index.js' ) ) );
+        obj_exports[item] = ( require ( my_path.join ( __dirname, item, 'index_.js' ) ) );
     }
 } );
 obj_exports.help = `HELP module.filename : ${module.filename}`;
