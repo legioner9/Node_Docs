@@ -17,6 +17,8 @@
       <excludeFolder url="file://$MODULE_DIR$/NPM_/ST_EX/st_ex1@1.2.5" />
       <excludeFolder url="file://$MODULE_DIR$/NPM_/ST_EX/st_ex1@1.2.6" />
       <excludeFolder url="file://$MODULE_DIR$/NPM_/ST_EX/st_ex1@1.2.9" />
+      <excludeFolder url="file://$MODULE_DIR$/NPM_/ST_INI/st_ini@1.0.0" />
+      <excludeFolder url="file://$MODULE_DIR$/NPM_/ST_INI/st_ini@1.0.1" />
       <excludeFolder url="file://$MODULE_DIR$/exc" />
       <excludeFolder url="file://$MODULE_DIR$/node_modules/._" />
       <excludeFolder url="file://$MODULE_DIR$/node_modules/.bin" />
@@ -322,6 +324,7 @@
       <excludeFolder url="file://$MODULE_DIR$/node_modules/sprintf-js" />
       <excludeFolder url="file://$MODULE_DIR$/node_modules/sshpk" />
       <excludeFolder url="file://$MODULE_DIR$/node_modules/ssri" />
+      <excludeFolder url="file://$MODULE_DIR$/node_modules/st_ex1/SetStream" />
       <excludeFolder url="file://$MODULE_DIR$/node_modules/statuses" />
       <excludeFolder url="file://$MODULE_DIR$/node_modules/string-width" />
       <excludeFolder url="file://$MODULE_DIR$/node_modules/string_decoder" />
