@@ -1,3 +1,3 @@
-const __ = require ( '__' );
+const Ini = require ( 'st_ini' );
 
 debugger;
