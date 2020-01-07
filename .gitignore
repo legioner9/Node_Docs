@@ -43,6 +43,7 @@ build/Release
 node_modules/*
 !node_modules/st_doc1
 !node_modules/st_ex1
+!node_modules/st_ini
 jspm_packages/
 
 # TypeScript v1 declaration files
