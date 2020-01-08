@@ -324,7 +324,6 @@
       <excludeFolder url="file://$MODULE_DIR$/node_modules/sprintf-js" />
       <excludeFolder url="file://$MODULE_DIR$/node_modules/sshpk" />
       <excludeFolder url="file://$MODULE_DIR$/node_modules/ssri" />
-      <excludeFolder url="file://$MODULE_DIR$/node_modules/st_ex1/SetStream" />
       <excludeFolder url="file://$MODULE_DIR$/node_modules/statuses" />
       <excludeFolder url="file://$MODULE_DIR$/node_modules/string-width" />
       <excludeFolder url="file://$MODULE_DIR$/node_modules/string_decoder" />
