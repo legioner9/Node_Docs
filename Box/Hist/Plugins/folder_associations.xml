@@ -25,7 +25,7 @@
   -->
 
 <associations>
-    <associations>
+    <associations>dis
         <regex name="android" pattern="^android$" icon="/android.svg"/>
         <regex name="animations" pattern="^(animations?|anims?)$" icon="/animations.svg"/>
         <regex name="api" pattern="^(apis?|rest|swagger)$" icon="/api.svg"/>
