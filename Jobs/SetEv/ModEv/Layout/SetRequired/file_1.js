@@ -3,6 +3,5 @@ Ini.addEvBus ( __filename );
 const nf = Ini.pathToName ( __filename );
 const self_ev = process.evBus[nf];
 self_ev.on ( 'ConsLog', d => {
-    console.log(` event 'ConsLog' from ${self_ev}`)
+    console.log(` event 'ConsLog' from ${nf} d:: ${d}`)
 });
-debugger;
