@@ -91,3 +91,4 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+/Education/ITVDN_Video_Node.js/8/Simple/node_modules/
