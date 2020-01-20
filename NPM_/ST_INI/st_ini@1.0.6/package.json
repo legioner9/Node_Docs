@@ -1,0 +1,30 @@
+{
+  "_from": "st_ini@1.0.4",
+  "_id": "st_ini@1.0.4",
+  "_inBundle": false,
+  "_integrity": "sha512-9jAH0iAOyL779cbl+h3tOcJTUm4KJuVnH4TuEzye5o5Uq8xzMfp6j8Yphhx+1FCJpASgRjjnw0vo+GZqWIH32g==",
+  "_location": "/st_ini",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "st_ini@1.0.4",
+    "name": "st_ini",
+    "escapedName": "st_ini",
+    "rawSpec": "1.0.4",
+    "saveSpec": null,
+    "fetchSpec": "1.0.4"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/st_ini/-/st_ini-1.0.4.tgz",
+  "_shasum": "80420853df24ad0bfdc4f90edff530aef03c5128",
+  "_spec": "st_ini@1.0.4",
+  "_where": "D:\\Node_Projects v.2\\Node_Docs",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "name": "st_ini",
+  "version": "1.0.6"
+}
