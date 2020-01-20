@@ -1,8 +1,0 @@
-npm install ghost-cli -g
-
-ghost install local
-
-http://localhost:2368/ghost
-
-
-
