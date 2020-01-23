@@ -4,7 +4,7 @@
   "description": "\"# Node_Docs\"",
   "main": "index.js",
   "scripts": {
-    "dev": "ndb node_modules/st_doc1/js_DOCS/Function/TSH/Functor-master/JavaScript/6-closure-ap_1.js",
+    "dev": "ndb node_modules/st_doc1/js_DOCS/Map/MapSerializeToOther/MapItteration.js",
     "dev_Gzip": "node nodejs.org_DOCS/Stream/StepTwo/TransformStream/ChainPipe/fs_decripto_zlib_fs_on_ClassReportProgress_on_done.js data",
     "dev_client": "ndb node NPM_/legioner9_ex2/Practice/Any_Serves/http_advanced_srv_client/Way/client.js",
     "ngrok_3003": "ngrok http 3003",
