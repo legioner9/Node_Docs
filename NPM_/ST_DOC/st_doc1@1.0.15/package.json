@@ -1,0 +1,31 @@
+{
+  "_from": "st_doc1@1.0.14",
+  "_id": "st_doc1@1.0.14",
+  "_inBundle": false,
+  "_integrity": "sha512-0dUVH7d8z2LTt1FqNy+O4HxBpetwCw+KrkWjnpY2Uzmjnbaeccz10f9JERRuyo3dhucELoulEaHTIWpgpkzTUQ==",
+  "_location": "/st_doc1",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "st_doc1@1.0.14",
+    "name": "st_doc1",
+    "escapedName": "st_doc1",
+    "rawSpec": "1.0.14",
+    "saveSpec": null,
+    "fetchSpec": "1.0.14"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/st_doc1/-/st_doc1-1.0.14.tgz",
+  "_shasum": "d8773bfb3670c18a0767288d34e57516ef7145d6",
+  "_spec": "st_doc1@1.0.14",
+  "_where": "D:\\Node_Projects v.2\\Node_Docs",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "",
+  "name": "st_doc1",
+  "version": "1.0.15"
+}

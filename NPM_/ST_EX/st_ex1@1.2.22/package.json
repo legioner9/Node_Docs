@@ -1,0 +1,36 @@
+{
+  "_args": [
+    [
+      "st_ex1@1.2.21",
+      "D:\\Node_Projects v.2\\Node_Docs"
+    ]
+  ],
+  "_from": "st_ex1@1.2.21",
+  "_id": "st_ex1@1.2.21",
+  "_inBundle": false,
+  "_integrity": "sha512-YTYZ52zTjdbTufUjbBc9GTc9Hm5KVT6jviwcwEpDcaYfdwCLfXMjCYHdzA4CLcK4XKU167jO+6x4UeMRxt9uAQ==",
+  "_location": "/st_ex1",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "st_ex1@1.2.21",
+    "name": "st_ex1",
+    "escapedName": "st_ex1",
+    "rawSpec": "1.2.21",
+    "saveSpec": null,
+    "fetchSpec": "1.2.21"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/st_ex1/-/st_ex1-1.2.19.tgz",
+  "_shasum": "c8c62ac677d78cc8be5631fd675904ac58da2bb9",
+  "_spec": "1.2.21",
+  "_where": "D:\\Node_Projects v.2\\Node_Docs",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "SuServer,       SuHandServ,       ServCacheModulesOfMethods,       SuLog,",
+  "name": "st_ex1",
+  "version": "1.2.22"
+}
