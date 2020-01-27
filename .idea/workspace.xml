@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9afba592-8010-4da3-9a4c-c297e817fafb" name="Default Changelist" comment="npm backup v.1">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Node_Docs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Node_Docs.iml" afterDir="false" />
+    <list default="true" id="9afba592-8010-4da3-9a4c-c297e817fafb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Function/FunctionPatterns/FunctionGenerator/mdn_yield.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Function/FunctionPatterns/FunctionGenerator/mdn_yield~.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Function/FunctionPatterns/PartialApplication/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetFunction/FuncDecor/Curry/Test/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetFunction/FuncDecor/Curry/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_ex1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_ex1/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_ini/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_ini/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Education/Timur_Video_JS/part_14/PartialApplication-master/JavaScript/6-curry-bad.js" beforeDir="false" afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/part_14/PartialApplication-master/JavaScript/6-curry-bad.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/st_ini/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_ini/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -377,7 +380,7 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/Jobs/SetGlobLoggers/ModLogger_1/Core/Logs/eLogs.txt&#10;true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="11.6.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/NPM_/ST_DOC" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/st_ex1/SetFunction/FuncDecor" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -399,11 +402,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_ex1\SetFunction\FuncDecor" />
+      <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_ex1" />
+      <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_doc1\js_DOCS\Function\FunctionPatterns\FunctionGenerator" />
       <recent name="D:\Node_Projects v.2\Node_Docs\NPM_\ST_DOC" />
       <recent name="D:\Node_Projects v.2\Node_Docs\NPM_\ST_EX" />
-      <recent name="D:\Node_Projects v.2\Node_Docs\NPM_\ST_INI" />
-      <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_ex1\Set__\__\_\Test" />
-      <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_ex1\Set_\_\Test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_doc1\js_DOCS\Object\AllWaysCreateObject\Inherits" />
@@ -557,14 +560,7 @@
       <workItem from="1579266936161" duration="49063000" />
       <workItem from="1579508450316" duration="48140000" />
       <workItem from="1579769169227" duration="57957000" />
-      <workItem from="1580033220222" duration="11464000" />
-    </task>
-    <task id="LOCAL-00128" summary="st_doc1@1.0.8 v.4">
-      <created>1578160272309</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1578160272309</updated>
+      <workItem from="1580033220222" duration="24880000" />
     </task>
     <task id="LOCAL-00129" summary="NodeConf v.1">
       <created>1578204114483</created>
@@ -902,7 +898,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580059685861</updated>
     </task>
-    <option name="localTasksCounter" value="177" />
+    <task id="LOCAL-00177" summary="npm backup v.2">
+      <created>1580060665247</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1580060665247</updated>
+    </task>
+    <option name="localTasksCounter" value="178" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -939,7 +942,6 @@
       <path value="$PROJECT_DIR$/Education/Timur_Video_Node.js/Project" />
       <path value="$PROJECT_DIR$/Education/Timur_Video_Node.js/part_5/Project" />
     </ignored-roots>
-    <MESSAGE value="Fill empty Dir Test v.1" />
     <MESSAGE value="TSH JS v.1" />
     <MESSAGE value="st_doc@1.0.12 v.2" />
     <MESSAGE value="st_doc@1.0.12 v.3" />
@@ -964,6 +966,7 @@
     <MESSAGE value="appendChain v.1" />
     <MESSAGE value="AppendChainPrototype v.1" />
     <MESSAGE value="npm backup v.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="npm backup v.1" />
+    <MESSAGE value="npm backup v.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="npm backup v.2" />
   </component>
 </project>

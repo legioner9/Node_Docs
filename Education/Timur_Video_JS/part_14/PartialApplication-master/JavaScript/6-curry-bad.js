@@ -1,4 +1,4 @@
-'use strict';
+ 'use strict';
 
 const curry = fn => (...args) => (
   fn.length > args.length ? curry(
