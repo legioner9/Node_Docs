@@ -1,6 +1,6 @@
 'use strict';
 
-const fn = () => {
+const fn = () =>  {
   console.log('Callback from from timer');
 };
 

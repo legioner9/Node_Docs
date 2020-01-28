@@ -2,13 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9afba592-8010-4da3-9a4c-c297e817fafb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Function/FunctionPatterns/FunctionGenerator/mdn_yield.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Function/FunctionPatterns/FunctionGenerator/mdn_yield~.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Function/FunctionPatterns/PartialApplication/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetFunction/FuncDecor/Curry/Test/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetFunction/FuncDecor/Curry/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Function/FunctionPatterns/Callbacks/namedPolyArgsCallback.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Function/FunctionPatterns/Callbacks/sum.console.bind.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Function/FunctionPatterns/HigherOrderFunction/logable_simple.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Function/FunctionPatterns/HigherOrderFunction/memois_simple.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetAdd/Cb/_/Test/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetAdd/Cb/_/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetAdd/Cb/cbTimeout/Test/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetAdd/Cb/cbTimeout/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetAdd/Cb/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetAdd/PartOne/PathToName/Test/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetFunction/Cb/CbTimeout/Test/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetFunction/Cb/CbTimeout/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetFunction/Cb/_/Test/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetFunction/Cb/_/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetFunction/Cb/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Education/Timur_Video_JS/part_14/PartialApplication-master/JavaScript/6-curry-bad.js" beforeDir="false" afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/part_14/PartialApplication-master/JavaScript/6-curry-bad.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Education/Timur_Video_JS/part_15/Callbacks-master/JavaScript/4-callback-timer.js" beforeDir="false" afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/part_15/Callbacks-master/JavaScript/4-callback-timer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/st_ex1/SetAdd/PartOne/pipeLine/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetAdd/PartOne/PipeLine/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/st_ex1/SetAdd/PartOne/reportProgress/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetAdd/PartOne/ReportProgress/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/st_ex1/SetAdd/PartOne/singlAddEvent/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetAdd/PartOne/SinglAddEvent/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/st_ex1/SetAdd/PartOne/singlAddOnceEvent/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetAdd/PartOne/SinglAddOnceEvent/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/st_ex1/SetAdd/PathToName/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetAdd/PartOne/PathToName/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/st_ini/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_ini/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -348,7 +363,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="15.01.2020" />
+        <entry key="$PROJECT_DIR$" value="17.01.2020" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -380,7 +395,7 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/Jobs/SetGlobLoggers/ModLogger_1/Core/Logs/eLogs.txt&#10;true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="11.6.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/st_ex1/SetFunction/FuncDecor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/st_ex1/SetFunction" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -402,11 +417,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_ex1\SetFunction\FuncDecor" />
-      <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_ex1" />
-      <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_doc1\js_DOCS\Function\FunctionPatterns\FunctionGenerator" />
-      <recent name="D:\Node_Projects v.2\Node_Docs\NPM_\ST_DOC" />
-      <recent name="D:\Node_Projects v.2\Node_Docs\NPM_\ST_EX" />
+      <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_ex1\SetFunction" />
+      <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_ex1\SetAdd\PartOne\PathToName" />
+      <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_ex1\SetAdd\PartOne" />
+      <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_ex1\SetAdd\Cb" />
+      <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_ex1\SetAdd" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_doc1\js_DOCS\Object\AllWaysCreateObject\Inherits" />
@@ -560,14 +575,7 @@
       <workItem from="1579266936161" duration="49063000" />
       <workItem from="1579508450316" duration="48140000" />
       <workItem from="1579769169227" duration="57957000" />
-      <workItem from="1580033220222" duration="24880000" />
-    </task>
-    <task id="LOCAL-00129" summary="NodeConf v.1">
-      <created>1578204114483</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1578204114484</updated>
+      <workItem from="1580033220222" duration="34095000" />
     </task>
     <task id="LOCAL-00130" summary="Node lib v.1">
       <created>1578210515392</created>
@@ -905,7 +913,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580060665247</updated>
     </task>
-    <option name="localTasksCounter" value="178" />
+    <task id="LOCAL-00178" summary="SetFunction Curry v.1">
+      <created>1580142254842</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1580142254842</updated>
+    </task>
+    <option name="localTasksCounter" value="179" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -942,7 +957,6 @@
       <path value="$PROJECT_DIR$/Education/Timur_Video_Node.js/Project" />
       <path value="$PROJECT_DIR$/Education/Timur_Video_Node.js/part_5/Project" />
     </ignored-roots>
-    <MESSAGE value="TSH JS v.1" />
     <MESSAGE value="st_doc@1.0.12 v.2" />
     <MESSAGE value="st_doc@1.0.12 v.3" />
     <MESSAGE value="ITDVN video curse v.1" />
@@ -967,6 +981,7 @@
     <MESSAGE value="AppendChainPrototype v.1" />
     <MESSAGE value="npm backup v.1" />
     <MESSAGE value="npm backup v.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="npm backup v.2" />
+    <MESSAGE value="SetFunction Curry v.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="SetFunction Curry v.1" />
   </component>
 </project>
