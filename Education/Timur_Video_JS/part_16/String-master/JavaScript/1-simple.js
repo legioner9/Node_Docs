@@ -4,7 +4,7 @@ const name = 'Marcus Aurelius';
 
 console.log();
 console.log(`name = '${name}'`);
-
+debugger
 console.log();
 console.log(`typeof name = '${typeof name}'`);
 console.log(`name.length = ${name.length}`);
