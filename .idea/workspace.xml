@@ -1,34 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9afba592-8010-4da3-9a4c-c297e817fafb" name="Default Changelist" comment="CbTimeout v.1">
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Function/FunctionPatterns/Callbacks/ExampleEventEmitter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Function/FunctionPatterns/Callbacks/callbackAsListener.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Function/FunctionPatterns/Callbacks/cbTimerCurry.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Function/FunctionPatterns/Callbacks/closureInnereStateEvent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/String/MDN/String.raw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/String/MDN/fromCodePoint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/String/TSH/JavaScript/0-unicode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/String/TSH/JavaScript/1-simple.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/String/TSH/JavaScript/2-methods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/String/TSH/JavaScript/3-parts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/String/TSH/JavaScript/4-modify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/String/TSH/JavaScript/5-sub.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/String/TSH/JavaScript/6-polyfill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/String/TSH/JavaScript/7-pad.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/String/TSH/JavaScript/8-tag.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/String/TSH/JavaScript/9-styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/String/TSH/JavaScript/fromCodePoint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetString/TemplateString/AnalyseTemplate/Test/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetString/TemplateString/AnalyseTemplate/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetString/TemplateString/SinteseTemplate/Test/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetString/TemplateString/SinteseTemplate/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetString/TemplateString/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetString/index.js" afterDir="false" />
+    <list default="true" id="9afba592-8010-4da3-9a4c-c297e817fafb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/RegExp/MDN/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/RegExp/MDN/Discription.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/RegExp/TSH/JavaScript/1-syntax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/RegExp/TSH/JavaScript/2-regexp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/RegExp/TSH/JavaScript/3-match.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/RegExp/TSH/JavaScript/4-split.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/RegExp/TSH/JavaScript/5-replace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/RegExp/TSH/JavaScript/6-replace-fn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/RegExp/TSH/JavaScript/7-search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/String/MDN/matchAll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetRegExp/__/_/Test/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetRegExp/__/_/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetRegExp/__/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetRegExp/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetString/AnalysisToWord/SortUniqueContent/Test/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetString/AnalysisToWord/SortUniqueContent/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetString/AnalysisToWord/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Education/Timur_Video_JS/part_16/String-master/JavaScript/0-unicode.js" beforeDir="false" afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/part_16/String-master/JavaScript/0-unicode.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Education/Timur_Video_JS/part_16/String-master/JavaScript/1-simple.js" beforeDir="false" afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/part_16/String-master/JavaScript/1-simple.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Services/StringFunc/DOC/Coverage/templ_string.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/Services/StringFunc/DOC/Coverage/templ_string.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Education/Timur_Video_JS/part_17/RegExp-master/JavaScript/1-syntax.js" beforeDir="false" afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/part_17/RegExp-master/JavaScript/1-syntax.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/st_ini/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_ini/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -400,7 +392,7 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/Jobs/SetGlobLoggers/ModLogger_1/Core/Logs/eLogs.txt&#10;true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="11.6.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/st_ex1/SetString/TemplateString" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/st_ex1/SetString" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -429,11 +421,11 @@
       <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_doc1\js_DOCS\Function\TSH\Function-master\JavaScript\Scopes" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_ex1\SetString\TemplateString" />
+      <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_ex1\SetString" />
+      <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_doc1\js_DOCS\RegExp\TSH" />
       <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_ex1" />
+      <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_ex1\SetString\TemplateString" />
       <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_doc1\js_DOCS\String\MDN" />
-      <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_doc1\js_DOCS\String\TSH" />
-      <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_doc1\js_DOCS\String" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -581,14 +573,7 @@
       <workItem from="1579508450316" duration="48140000" />
       <workItem from="1579769169227" duration="57957000" />
       <workItem from="1580033220222" duration="39327000" />
-      <workItem from="1580286833682" duration="13038000" />
-    </task>
-    <task id="LOCAL-00131" summary="Node lib v.2">
-      <created>1578211668476</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
-      <option name="project" value="LOCAL" />
-      <updated>1578211668476</updated>
+      <workItem from="1580286833682" duration="31937000" />
     </task>
     <task id="LOCAL-00132" summary="st_ex1@1.2.15 v.1">
       <created>1578216856671</created>
@@ -926,7 +911,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580195063426</updated>
     </task>
-    <option name="localTasksCounter" value="180" />
+    <task id="LOCAL-00180" summary="SetStrings TemplateString v.1">
+      <created>1580380817842</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1580380817844</updated>
+    </task>
+    <option name="localTasksCounter" value="181" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -963,7 +955,6 @@
       <path value="$PROJECT_DIR$/Education/Timur_Video_Node.js/Project" />
       <path value="$PROJECT_DIR$/Education/Timur_Video_Node.js/part_5/Project" />
     </ignored-roots>
-    <MESSAGE value="st_doc@1.0.12 v.3" />
     <MESSAGE value="ITDVN video curse v.1" />
     <MESSAGE value="ITDVN video delete v.1" />
     <MESSAGE value="Array thisArgCallback v.1" />
@@ -988,6 +979,7 @@
     <MESSAGE value="npm backup v.2" />
     <MESSAGE value="SetFunction Curry v.1" />
     <MESSAGE value="CbTimeout v.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="CbTimeout v.1" />
+    <MESSAGE value="SetStrings TemplateString v.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="SetStrings TemplateString v.1" />
   </component>
 </project>
