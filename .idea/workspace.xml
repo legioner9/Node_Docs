@@ -2,26 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9afba592-8010-4da3-9a4c-c297e817fafb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/RegExp/MDN/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/RegExp/MDN/Discription.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/RegExp/TSH/JavaScript/1-syntax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/RegExp/TSH/JavaScript/2-regexp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/RegExp/TSH/JavaScript/3-match.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/RegExp/TSH/JavaScript/4-split.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/RegExp/TSH/JavaScript/5-replace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/RegExp/TSH/JavaScript/6-replace-fn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/RegExp/TSH/JavaScript/7-search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/String/MDN/matchAll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetRegExp/__/_/Test/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetRegExp/__/_/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetRegExp/__/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetRegExp/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetString/AnalysisToWord/SortUniqueContent/Test/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetString/AnalysisToWord/SortUniqueContent/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetString/AnalysisToWord/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Education/Timur_Video_JS/part_17/RegExp-master/JavaScript/1-syntax.js" beforeDir="false" afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/part_17/RegExp-master/JavaScript/1-syntax.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_ini/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_ini/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/RegExp/TSH/JavaScript/2-regexp.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/RegExp/TSH/JavaScript/2-regexp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/RegExp/TSH/JavaScript/6-replace-fn.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/RegExp/TSH/JavaScript/6-replace-fn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/RegExp/TSH/JavaScript/7-search.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/RegExp/TSH/JavaScript/7-search.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -573,14 +557,7 @@
       <workItem from="1579508450316" duration="48140000" />
       <workItem from="1579769169227" duration="57957000" />
       <workItem from="1580033220222" duration="39327000" />
-      <workItem from="1580286833682" duration="31937000" />
-    </task>
-    <task id="LOCAL-00132" summary="st_ex1@1.2.15 v.1">
-      <created>1578216856671</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
-      <option name="project" value="LOCAL" />
-      <updated>1578216856671</updated>
+      <workItem from="1580286833682" duration="34952000" />
     </task>
     <task id="LOCAL-00133" summary="st_ex1@1.2.15 v.2">
       <created>1578298036953</created>
@@ -918,7 +895,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580380817844</updated>
     </task>
-    <option name="localTasksCounter" value="181" />
+    <task id="LOCAL-00181" summary="SetStrings SortUniqueContent v.1">
+      <created>1580465476231</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1580465476232</updated>
+    </task>
+    <option name="localTasksCounter" value="182" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -955,7 +939,6 @@
       <path value="$PROJECT_DIR$/Education/Timur_Video_Node.js/Project" />
       <path value="$PROJECT_DIR$/Education/Timur_Video_Node.js/part_5/Project" />
     </ignored-roots>
-    <MESSAGE value="ITDVN video curse v.1" />
     <MESSAGE value="ITDVN video delete v.1" />
     <MESSAGE value="Array thisArgCallback v.1" />
     <MESSAGE value="Array thisArgCallback v.2" />
@@ -980,6 +963,7 @@
     <MESSAGE value="SetFunction Curry v.1" />
     <MESSAGE value="CbTimeout v.1" />
     <MESSAGE value="SetStrings TemplateString v.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="SetStrings TemplateString v.1" />
+    <MESSAGE value="SetStrings SortUniqueContent v.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="SetStrings SortUniqueContent v.1" />
   </component>
 </project>
