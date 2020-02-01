@@ -1,12 +1,14 @@
-# Материалы курса IP9X: Основы программирования
+# Материалы курса IP9X: Основы инженерии программного обеспечения
+
+[Обновленная версия программы курса](Courses/Fundamentals.md)
 
 ## Ссылки
 
-- Канал: https://t.me/HowProgrammingWorks
-- Группа (чат): https://t.me/Programming_IP9X
-- Регистрация на митапы: https://www.meetup.com/HowProgrammingWorks
-- Все задачи: https://github.com/HowProgrammingWorks/Index/blob/master/Exercises.ru.md
 - Автор: https://github.com/tshemsedinov
+- Канал в телеграме: https://t.me/HowProgrammingWorks
+- Группа (чат): https://t.me/Programming_IP9X
+- Задачи по курсу: https://github.com/HowProgrammingWorks/Index/blob/master/Exercises.ru.md
+- Словарь терминов: https://github.com/HowProgrammingWorks/Dictionary/blob/master/IP9X.ru.md
 
 ## Программа на 1й семестр
 
@@ -71,5 +73,5 @@
 - видео: [Фабрики и пулы объектов в JavaScript, factorify, poolify](https://youtu.be/Ax_mSvadFp8)
 - вт 26 ноя 16:10: [Функции-обертки: wrappers](https://www.youtube.com/watch?v=En7pWi2fSzs)
 - видео: [Типизированные массивы в JavaScript](https://youtu.be/tTNcqxbxhfY)
-- вт 03 дек 16:10: Новое в JavaScript
-- вт 03 дек 17:30: Семинар: Обзор материала и как готовиться к экзамену
+- вт 03 дек 16:10: [Новое в JavaScript](https://youtu.be/fUjHLj8bq_Y)
+- вт 10 дек 14:15: Семинар: Обзор материала и как готовиться к экзамену
