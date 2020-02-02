@@ -31,7 +31,7 @@
   }
 }
 
-// Antipattern: Inconsistent names
+// Antipattern: Inconsistent_names
 {
   const api = {
     setPort: () => {},
@@ -41,14 +41,14 @@
   console.dir({ api });
 }
 
-// Antipattern: Non descriptive names
+// Antipattern: non_descriptive_names
 {
   class ApplicationController {
-    constructor(link) {
+    constructor(link) { // link not a Url
       this.link = link;
     }
 
-    execute(handler) {
+    execute(handler) {  // handler not a function
       this.link(handler);
     }
   }
