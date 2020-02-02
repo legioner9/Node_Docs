@@ -1,1 +1,0 @@
-https://github.com/metarhia/common/blob/master/lib/events.js
