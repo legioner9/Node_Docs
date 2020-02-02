@@ -2,49 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9afba592-8010-4da3-9a4c-c297e817fafb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Education/TSH_index/Index-master_02_02_2020/Archive/2013-2016.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Education/TSH_index/Index-master_02_02_2020/Archive/2017-Archive.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Education/TSH_index/Index-master_02_02_2020/Archive/2018-Archive.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Education/TSH_index/Index-master_02_02_2020/Archive/2018-Summer-school.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Education/TSH_index/Index-master_02_02_2020/Calendar.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Education/TSH_index/Index-master_02_02_2020/Courses/Advanced.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Education/TSH_index/Index-master_02_02_2020/Courses/Fundamentals.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Education/TSH_index/Index-master_02_02_2020/Courses/Highload.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Education/TSH_index/Index-master_02_02_2020/Courses/OOP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Education/TSH_index/Index-master_02_02_2020/Courses/Security.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/TSH_index/Current/Functional.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/TSH_index/Current/OOP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/part_14/Composition-master.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/part_14/Composition-master/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/part_14/Composition-master/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/part_14/Composition-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/part_14/Composition-master/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/part_14/Composition-master/Exercises.ru.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/part_14/Composition-master/Exercises/1-pipe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/part_14/Composition-master/Exercises/1-pipe.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/part_14/Composition-master/Exercises/2-compose.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/part_14/Composition-master/Exercises/2-compose.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/part_14/Composition-master/JavaScript/1-superposition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/part_14/Composition-master/JavaScript/2-composition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/part_14/Composition-master/JavaScript/3-arguments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/part_14/Composition-master/JavaScript/4-multiple.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/part_14/Composition-master/JavaScript/5-loop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/part_14/Composition-master/JavaScript/6-recursive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/part_14/Composition-master/JavaScript/7-compose-async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/part_14/Composition-master/JavaScript/8-compose-proto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/part_14/Composition-master/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/part_14/Composition-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/part_14/Composition-master/Solutions/1-pipe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/part_14/Composition-master/Solutions/2-compose.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/part_14/Composition-master/knowledge.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/part_14/Composition-master/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/part_14/Composition-master/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetFunction/FuncDecor/ComposeFunction/Test/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetFunction/FuncDecor/ComposeFunction/Test/2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetFunction/FuncDecor/ComposeFunction/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Education/TSH_Index_02_12_19/TSH_Index_02_12_19-master.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Education/TSH_Index_02_12_19/TSH_Index_02_12_19-master/Archive/2017-Summer-school.md" beforeDir="false" afterPath="$PROJECT_DIR$/Education/TSH_index/Index-master_02_02_2020/Archive/2017-Summer-school.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Education/TSH_Index_02_12_19/TSH_Index_02_12_19-master/Calendar.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Education/TSH_Index_02_12_19/TSH_Index_02_12_19-master/Courses/AlgAndData.md" beforeDir="false" afterPath="$PROJECT_DIR$/Education/TSH_index/Index-master_02_02_2020/Courses/AlgAndData.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Education/TSH_Index_02_12_19/TSH_Index_02_12_19-master/Courses/Architecture.md" beforeDir="false" afterPath="$PROJECT_DIR$/Education/TSH_index/Index-master_02_02_2020/Courses/Architecture.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Education/TSH_Index_02_12_19/TSH_Index_02_12_19-master/Courses/Asynchronous.md" beforeDir="false" afterPath="$PROJECT_DIR$/Education/TSH_index/Index-master_02_02_2020/Courses/Asynchronous.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Education/TSH_Index_02_12_19/TSH_Index_02_12_19-master/Courses/Databases.md" beforeDir="false" afterPath="$PROJECT_DIR$/Education/TSH_index/Index-master_02_02_2020/Courses/Databases.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Education/TSH_Index_02_12_19/TSH_Index_02_12_19-master/Courses/Functional.md" beforeDir="false" afterPath="$PROJECT_DIR$/Education/TSH_index/Index-master_02_02_2020/Courses/Functional.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Education/TSH_Index_02_12_19/TSH_Index_02_12_19-master/Courses/Fundamentals.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Education/TSH_Index_02_12_19/TSH_Index_02_12_19-master/Courses/Highload.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Education/TSH_Index_02_12_19/TSH_Index_02_12_19-master/Courses/Introduction.md" beforeDir="false" afterPath="$PROJECT_DIR$/Education/TSH_index/Index-master_02_02_2020/Courses/Introduction.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Education/TSH_Index_02_12_19/TSH_Index_02_12_19-master/Courses/Metaprogramming.md" beforeDir="false" afterPath="$PROJECT_DIR$/Education/TSH_index/Index-master_02_02_2020/Courses/Metaprogramming.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Education/TSH_Index_02_12_19/TSH_Index_02_12_19-master/Courses/Network.md" beforeDir="false" afterPath="$PROJECT_DIR$/Education/TSH_index/Index-master_02_02_2020/Courses/Network.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Education/TSH_Index_02_12_19/TSH_Index_02_12_19-master/Courses/NodeJS.md" beforeDir="false" afterPath="$PROJECT_DIR$/Education/TSH_index/Index-master_02_02_2020/Courses/NodeJS.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Education/TSH_Index_02_12_19/TSH_Index_02_12_19-master/Courses/OOP.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Education/TSH_Index_02_12_19/TSH_Index_02_12_19-master/Courses/OS.md" beforeDir="false" afterPath="$PROJECT_DIR$/Education/TSH_index/Index-master_02_02_2020/Courses/OS.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Education/TSH_Index_02_12_19/TSH_Index_02_12_19-master/Courses/Paradigms.md" beforeDir="false" afterPath="$PROJECT_DIR$/Education/TSH_index/Index-master_02_02_2020/Courses/Paradigms.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Education/TSH_Index_02_12_19/TSH_Index_02_12_19-master/Courses/Parallel.md" beforeDir="false" afterPath="$PROJECT_DIR$/Education/TSH_index/Index-master_02_02_2020/Courses/Parallel.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Education/TSH_Index_02_12_19/TSH_Index_02_12_19-master/Courses/Patterns.md" beforeDir="false" afterPath="$PROJECT_DIR$/Education/TSH_index/Index-master_02_02_2020/Courses/Patterns.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Education/TSH_Index_02_12_19/TSH_Index_02_12_19-master/Courses/Quality.md" beforeDir="false" afterPath="$PROJECT_DIR$/Education/TSH_index/Index-master_02_02_2020/Courses/Quality.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Education/TSH_Index_02_12_19/TSH_Index_02_12_19-master/Courses/Security.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Education/TSH_Index_02_12_19/TSH_Index_02_12_19-master/Courses/Special.md" beforeDir="false" afterPath="$PROJECT_DIR$/Education/TSH_index/Index-master_02_02_2020/Courses/Special.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Education/TSH_Index_02_12_19/TSH_Index_02_12_19-master/Courses/System.md" beforeDir="false" afterPath="$PROJECT_DIR$/Education/TSH_index/Index-master_02_02_2020/Courses/System.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Education/TSH_Index_02_12_19/TSH_Index_02_12_19-master/Courses/Tools.md" beforeDir="false" afterPath="$PROJECT_DIR$/Education/TSH_index/Index-master_02_02_2020/Courses/Tools.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Education/TSH_Index_02_12_19/TSH_Index_02_12_19-master/Courses/UI-UX.md" beforeDir="false" afterPath="$PROJECT_DIR$/Education/TSH_index/Index-master_02_02_2020/Courses/UI-UX.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Education/TSH_Index_02_12_19/TSH_Index_02_12_19-master/Courses/Web.md" beforeDir="false" afterPath="$PROJECT_DIR$/Education/TSH_index/Index-master_02_02_2020/Courses/Web.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Education/TSH_Index_02_12_19/TSH_Index_02_12_19-master/Exercises.ru.md" beforeDir="false" afterPath="$PROJECT_DIR$/Education/TSH_index/Index-master_02_02_2020/Exercises.ru.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Education/TSH_Index_02_12_19/TSH_Index_02_12_19-master/IP9X.md" beforeDir="false" afterPath="$PROJECT_DIR$/Education/TSH_index/Index-master_02_02_2020/IP9X.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Education/TSH_Index_02_12_19/TSH_Index_02_12_19-master/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Education/TSH_index/Index-master_02_02_2020/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Education/TSH_Index_02_12_19/TSH_Index_02_12_19-master/NodeUA.md" beforeDir="false" afterPath="$PROJECT_DIR$/Education/TSH_index/Index-master_02_02_2020/NodeUA.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Education/TSH_Index_02_12_19/TSH_Index_02_12_19-master/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Education/TSH_index/Index-master_02_02_2020/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Education/TSH_index/chapter.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/st_ini/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_ini/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -414,7 +404,7 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/Jobs/SetGlobLoggers/ModLogger_1/Core/Logs/eLogs.txt&#10;true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="11.6.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/NPM_/ST_INI" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/st_ex1/SetFunction/FuncDecor/ComposeFunction/Test" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -443,11 +433,11 @@
       <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_ex1\SetGlobal\AddPrototipe\ToObject\Iterator" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_ex1\SetFunction\FuncDecor\ComposeFunction\Test" />
+      <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_ex1\SetFunction\FuncDecor" />
+      <recent name="D:\Node_Projects v.2\Node_Docs\Education\TSH_index\Current" />
       <recent name="D:\Node_Projects v.2\Node_Docs\NPM_\ST_INI" />
       <recent name="D:\Node_Projects v.2\Node_Docs\NPM_\ST_EX" />
-      <recent name="D:\Node_Projects v.2\Node_Docs\NPM_\ST_DOC" />
-      <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_ex1\SetString" />
-      <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_doc1\js_DOCS\RegExp\TSH" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -599,14 +589,7 @@
       <workItem from="1580547093368" duration="2344000" />
       <workItem from="1580563704587" duration="2270000" />
       <workItem from="1580566423188" duration="57000" />
-      <workItem from="1580566656167" duration="9768000" />
-    </task>
-    <task id="LOCAL-00137" summary="st_ex1@1.2.16 v.3">
-      <created>1578322843365</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1578322843365</updated>
+      <workItem from="1580566656167" duration="18350000" />
     </task>
     <task id="LOCAL-00138" summary="st_ini@1.0.0 v.3">
       <created>1578401397158</created>
@@ -944,7 +927,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580577068007</updated>
     </task>
-    <option name="localTasksCounter" value="186" />
+    <task id="LOCAL-00186" summary="TSH index UpDate v.2">
+      <created>1580578430203</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1580578430203</updated>
+    </task>
+    <option name="localTasksCounter" value="187" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -981,7 +971,6 @@
       <path value="$PROJECT_DIR$/Education/Timur_Video_Node.js/Project" />
       <path value="$PROJECT_DIR$/Education/Timur_Video_Node.js/part_5/Project" />
     </ignored-roots>
-    <MESSAGE value="BackUp Npm v.1" />
     <MESSAGE value="FunctionPatterns v.1" />
     <MESSAGE value="cachDecor v.1" />
     <MESSAGE value="Functor v.1" />
@@ -1006,6 +995,7 @@
     <MESSAGE value="Npm Up v.1" />
     <MESSAGE value="Markdown docs v.1" />
     <MESSAGE value="Markdown docs v.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Markdown docs v.2" />
+    <MESSAGE value="TSH index UpDate v.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="TSH index UpDate v.2" />
   </component>
 </project>
