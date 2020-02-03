@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9afba592-8010-4da3-9a4c-c297e817fafb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/OwnSyntax/NameTag.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/OwnSyntax/NameTag.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -564,14 +564,7 @@
       <workItem from="1580563704587" duration="2270000" />
       <workItem from="1580566423188" duration="57000" />
       <workItem from="1580566656167" duration="32001000" />
-      <workItem from="1580716249733" duration="3733000" />
-    </task>
-    <task id="LOCAL-00143" summary="SetStream_ =&gt; SetStream v.3">
-      <created>1578483008635</created>
-      <option name="number" value="00143" />
-      <option name="presentableId" value="LOCAL-00143" />
-      <option name="project" value="LOCAL" />
-      <updated>1578483008635</updated>
+      <workItem from="1580716249733" duration="4007000" />
     </task>
     <task id="LOCAL-00144" summary="Up 08.01.2020 v.2">
       <created>1578505761123</created>
@@ -909,7 +902,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580720913605</updated>
     </task>
-    <option name="localTasksCounter" value="192" />
+    <task id="LOCAL-00192" summary="OwnSyntax NameTag v.2">
+      <created>1580721847489</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1580721847489</updated>
+    </task>
+    <option name="localTasksCounter" value="193" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -946,7 +946,6 @@
       <path value="$PROJECT_DIR$/Education/Timur_Video_Node.js/Project" />
       <path value="$PROJECT_DIR$/Education/Timur_Video_Node.js/part_5/Project" />
     </ignored-roots>
-    <MESSAGE value="SetIteration v.2" />
     <MESSAGE value="DefineObjIterator v.1" />
     <MESSAGE value="DefineObjIterator v.2" />
     <MESSAGE value="NPM update v.2" />
@@ -971,6 +970,7 @@
     <MESSAGE value="ind_6 Antipatterns v.2" />
     <MESSAGE value="OwnSyntax v.1" />
     <MESSAGE value="OwnSyntax NameTag v.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="OwnSyntax NameTag v.1" />
+    <MESSAGE value="OwnSyntax NameTag v.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="OwnSyntax NameTag v.2" />
   </component>
 </project>
