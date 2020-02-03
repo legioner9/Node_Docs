@@ -2,49 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9afba592-8010-4da3-9a4c-c297e817fafb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/inconsistent_names.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/non_descriptive_names.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/OwnSintax/NameTag.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Src/Dictionary-master.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Src/Dictionary-master/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Src/Dictionary-master/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Education/Timur_Video_JS/ind_6/Antipatterns-master/JavaScript/01-Common/1-bad-names.js" beforeDir="false" afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/ind_6/Antipatterns-master/JavaScript/01-Common/1-bad-names.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Feachures/destructuring.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Feachures/destructuring.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Feachures/md_docs.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Feachures/md_docs.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Services/Additional/DOC/Coverage/memoryUsageLog.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Additional/DOC/Coverage/memoryUsageLog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Services/ContextsFunc/DOC/Coverage/callback_context.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/ContextsFunc/DOC/Coverage/callback_context.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Services/Events/DOC/Coverage/newListener#2.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Events/DOC/Coverage/newListener#2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Services/Events/DOC/Coverage/removeListener.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Events/DOC/Coverage/removeListener.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Services/Mutexes/DOC/Coverage/master_class_BinAtomicsMUTX.v1.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Mutexes/DOC/Coverage/master_class_BinAtomicsMUTX.v1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Services/Semaphores/DOC/Coverage/ClassSemaphore_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Semaphores/DOC/Coverage/ClassSemaphore_1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Services/Servers/Http/Any_Serves/http_advanced_srv_client/Way/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Http/Any_Serves/http_advanced_srv_client/Way/client.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Services/Servers/Http/Any_Serves/http_advanced_srv_client/Way/serv_advanced.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Http/Any_Serves/http_advanced_srv_client/Way/serv_advanced.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Services/Servers/Http/Any_Serves/http_advanced_srv_client/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Http/Any_Serves/http_advanced_srv_client/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Services/Servers/Http/Any_Serves/http_simple_srv_client/Way/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Http/Any_Serves/http_simple_srv_client/Way/client.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Services/Servers/Http/Any_Serves/http_simple_srv_client/Way/res_body.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Http/Any_Serves/http_simple_srv_client/Way/res_body.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Services/Servers/Http/Any_Serves/http_simple_srv_client/Way/serv_rout_simple.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Http/Any_Serves/http_simple_srv_client/Way/serv_rout_simple.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Services/Servers/Http/Any_Serves/http_simple_srv_client/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Http/Any_Serves/http_simple_srv_client/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Services/Servers/Http/basic.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Http/basic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Services/Servers/HttpThreads/http.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/HttpThreads/http.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Services/Servers/HttpThreads/master.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/HttpThreads/master.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Services/Servers/Serv_cacheFs/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Serv_cacheFs/1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Services/Servers/Serv_cacheFs/H_handlerServ_with_cache.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Serv_cacheFs/H_handlerServ_with_cache.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Services/Servers/Serv_cacheFs/I_getCache_startServ.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Serv_cacheFs/I_getCache_startServ.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Services/Servers/Serv_cacheFs/L_watchFs_returnCache.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Serv_cacheFs/L_watchFs_returnCache.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Services/Servers/Serv_cacheFs/S_serv_with_handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Serv_cacheFs/S_serv_with_handler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Services/Servers/Serv_cacheModuleMethods/Additional/gc.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Serv_cacheModuleMethods/Additional/gc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Services/Servers/Serv_cacheModuleMethods/Additional/memoryUsageLog.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Serv_cacheModuleMethods/Additional/memoryUsageLog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Services/Servers/Serv_cacheModuleMethods/Additional/processServing.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Serv_cacheModuleMethods/Additional/processServing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Services/Servers/Serv_cacheModuleMethods/H_handlerServ_with_cache.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Serv_cacheModuleMethods/H_handlerServ_with_cache.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Services/Servers/Serv_cacheModuleMethods/I_getCache_startServ.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Serv_cacheModuleMethods/I_getCache_startServ.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Services/Servers/Serv_cacheModuleMethods/L_watchFs_returnCache.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Serv_cacheModuleMethods/L_watchFs_returnCache.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Services/Servers/Serv_cacheModuleMethods/S_serv_with_handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Serv_cacheModuleMethods/S_serv_with_handler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Services/Servers/Serv_cacheModuleMethods/lib/submodule1.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Serv_cacheModuleMethods/lib/submodule1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Services/Servers/Serv_cacheModuleMethods/lib/submodule2.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Serv_cacheModuleMethods/lib/submodule2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Services/Servers/Serv_cacheModuleMethods/lib/submodule3.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Serv_cacheModuleMethods/lib/submodule3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Services/Servers/Telnet/client_once_world.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Telnet/client_once_world.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Services/Streams/DOC/Coverage/Index_str_pipe.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Streams/DOC/Coverage/Index_str_pipe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Services/StringFunc/DOC/Coverage/templ_string.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/StringFunc/DOC/Coverage/templ_string.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Services/WarningErrors/DOC/Coverage/Events/error.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/WarningErrors/DOC/Coverage/Events/error.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Services/WarningErrors/DOC/Coverage/Process/promise_err_warn.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/WarningErrors/DOC/Coverage/Process/promise_err_warn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Services/WarningErrors/DOC/Coverage/Server/server_errors.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/WarningErrors/DOC/Coverage/Server/server_errors.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -605,14 +567,7 @@
       <workItem from="1580547093368" duration="2344000" />
       <workItem from="1580563704587" duration="2270000" />
       <workItem from="1580566423188" duration="57000" />
-      <workItem from="1580566656167" duration="26951000" />
-    </task>
-    <task id="LOCAL-00140" summary="SetStream_ v.1">
-      <created>1578416889084</created>
-      <option name="number" value="00140" />
-      <option name="presentableId" value="LOCAL-00140" />
-      <option name="project" value="LOCAL" />
-      <updated>1578416889084</updated>
+      <workItem from="1580566656167" duration="31557000" />
     </task>
     <task id="LOCAL-00141" summary="SetStream_ v.2">
       <created>1578417174800</created>
@@ -950,7 +905,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580641465545</updated>
     </task>
-    <option name="localTasksCounter" value="189" />
+    <task id="LOCAL-00189" summary="ind_6 Antipatterns v.2">
+      <created>1580660846711</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1580660846711</updated>
+    </task>
+    <option name="localTasksCounter" value="190" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -987,7 +949,6 @@
       <path value="$PROJECT_DIR$/Education/Timur_Video_Node.js/Project" />
       <path value="$PROJECT_DIR$/Education/Timur_Video_Node.js/part_5/Project" />
     </ignored-roots>
-    <MESSAGE value="Functor v.1" />
     <MESSAGE value="arrMapEntries v.1" />
     <MESSAGE value="SetItteration v.1" />
     <MESSAGE value="SetIteration v.2" />
@@ -1012,6 +973,7 @@
     <MESSAGE value="TSH index UpDate v.2" />
     <MESSAGE value="ComposeFunction v.1" />
     <MESSAGE value="ind_6 Antipatterns v.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="ind_6 Antipatterns v.1" />
+    <MESSAGE value="ind_6 Antipatterns v.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="ind_6 Antipatterns v.2" />
   </component>
 </project>
