@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9afba592-8010-4da3-9a4c-c297e817fafb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/OwnSintax/NameTag.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Src/Dictionary-master.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Src/Dictionary-master/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Src/Dictionary-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/STM.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/OwnSyntax/NameTag.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/OwnSyntax/NameTag.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -399,7 +397,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="ts.external.directory.path" value="D:\Program Files_new\JetBrains\IntelliJ IDEA 2019.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -567,14 +565,8 @@
       <workItem from="1580547093368" duration="2344000" />
       <workItem from="1580563704587" duration="2270000" />
       <workItem from="1580566423188" duration="57000" />
-      <workItem from="1580566656167" duration="31557000" />
-    </task>
-    <task id="LOCAL-00141" summary="SetStream_ v.2">
-      <created>1578417174800</created>
-      <option name="number" value="00141" />
-      <option name="presentableId" value="LOCAL-00141" />
-      <option name="project" value="LOCAL" />
-      <updated>1578417174800</updated>
+      <workItem from="1580566656167" duration="32001000" />
+      <workItem from="1580716249733" duration="3056000" />
     </task>
     <task id="LOCAL-00142" summary="SetStream_ v.3">
       <created>1578482160219</created>
@@ -912,7 +904,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580660846711</updated>
     </task>
-    <option name="localTasksCounter" value="190" />
+    <task id="LOCAL-00190" summary="OwnSyntax v.1">
+      <created>1580715504908</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1580715504909</updated>
+    </task>
+    <option name="localTasksCounter" value="191" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -949,7 +948,6 @@
       <path value="$PROJECT_DIR$/Education/Timur_Video_Node.js/Project" />
       <path value="$PROJECT_DIR$/Education/Timur_Video_Node.js/part_5/Project" />
     </ignored-roots>
-    <MESSAGE value="arrMapEntries v.1" />
     <MESSAGE value="SetItteration v.1" />
     <MESSAGE value="SetIteration v.2" />
     <MESSAGE value="DefineObjIterator v.1" />
@@ -974,6 +972,7 @@
     <MESSAGE value="ComposeFunction v.1" />
     <MESSAGE value="ind_6 Antipatterns v.1" />
     <MESSAGE value="ind_6 Antipatterns v.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="ind_6 Antipatterns v.2" />
+    <MESSAGE value="OwnSyntax v.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="OwnSyntax v.1" />
   </component>
 </project>
