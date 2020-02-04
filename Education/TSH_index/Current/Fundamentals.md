@@ -59,7 +59,7 @@
   - Примеры кода: https://github.com/HowProgrammingWorks/String
 - [ind_6.Антипаттерны общие для всех парадигм](https://youtu.be/NMUsUiFokr4)
   - Примеры кода: https://github.com/HowProgrammingWorks/Antipatterns/tree/master/JavaScript/01-Common
-- [Консоль и командная строка в JavaScript и Node.js](https://youtu.be/5aSZyKi5BmE)
+- [ind_7.Консоль и командная строка в JavaScript и Node.js](https://youtu.be/5aSZyKi5BmE)
   - Примеры кода: https://github.com/HowProgrammingWorks/CommandLine
 - [Чеининг функций и объектов, обработка ошибок в JavaScript](https://youtu.be/PfuEfIiLX34)
   - Чеининг: https://github.com/HowProgrammingWorks/Chaining

@@ -1,17 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9afba592-8010-4da3-9a4c-c297e817fafb" name="Default Changelist" comment="OwnSyntax NameTag v.5">
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/Markdown_DOCS/Table.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Console/Cursor/Position.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetConsole/ConsoleLog/Position/ANSI Escape codes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetConsole/ConsoleLog/Position/Test/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetConsole/ConsoleLog/Position/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetConsole/ConsoleLog/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetConsole/index.js" afterDir="false" />
+    <list default="true" id="9afba592-8010-4da3-9a4c-c297e817fafb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/ind_7/CommandLine-master.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/ind_7/CommandLine-master/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/ind_7/CommandLine-master/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/ind_7/CommandLine-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/ind_7/CommandLine-master/JavaScript/1-console.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/ind_7/CommandLine-master/JavaScript/2-readline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/ind_7/CommandLine-master/JavaScript/3-prompt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/ind_7/CommandLine-master/JavaScript/4-cli.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/ind_7/CommandLine-master/JavaScript/5-table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/ind_7/CommandLine-master/JavaScript/6-group.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/ind_7/CommandLine-master/JavaScript/7-login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/ind_7/CommandLine-master/JavaScript/8-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/ind_7/CommandLine-master/JavaScript/9-raw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/ind_7/CommandLine-master/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Education/Timur_Video_JS/ind_7/CommandLine-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/Common/01-Common/1-bad-names.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/Common/01-Common/2-magic-num.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/Common/01-Common/3-hard-code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/Common/01-Common/4-duplicate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/Common/01-Common/5-cryptic-code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/Common/01-Common/6-copy-paste.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/Common/01-Common/7-improbability.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/Common/01-Common/8-foolproof.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/Common/01-Common/9-spaghetti.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/Common/01-Common/a-comments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/Common/01-Common/b-silver-bullet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/Common/01-Common/c-nih.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/Common/01-Common/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/Common/01-Common/d-complexity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/Common/LayerAwait.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/Common/WhereTreadError.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/Common/hard-code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Child_Process/ComandLine/Box/Coverage/0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Child_Process/ComandLine/Box/Features/0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Child_Process/ComandLine/Box/Hist/Tests/0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Child_Process/ComandLine/Box/Pres/0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Child_Process/ComandLine/Box/Release/0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Child_Process/ComandLine/Box/Tmp/0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Child_Process/ComandLine/DOC/Box/Coverage/0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Child_Process/ComandLine/DOC/Box/Features/0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Child_Process/ComandLine/DOC/Box/Hist/Tests/0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Child_Process/ComandLine/DOC/Box/Pres/0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Child_Process/ComandLine/DOC/Box/Release/0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Child_Process/ComandLine/DOC/Box/Tmp/0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Child_Process/ComandLine/DOC/Coverage/0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Child_Process/ComandLine/DOC/Release/0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Events/Polifills/TSHcryptic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Fs/Fs.Promises/readFile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/_node_js.SecondLevelAbstracts/Await/Examples/fsCacheWatchFileDir.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Markdown_DOCS/Emphasis.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/Markdown_DOCS/Emphasis.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/OwnSyntax/NameTag.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/OwnSyntax/NameTag.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Education/TSH_index/Current/Fundamentals.md" beforeDir="false" afterPath="$PROJECT_DIR$/Education/TSH_index/Current/Fundamentals.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/inconsistent_names.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/Common/inconsistent_names.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/non_descriptive_names.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/Common/non_descriptive_names.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -388,7 +431,7 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/Jobs/SetGlobLoggers/ModLogger_1/Core/Logs/eLogs.txt&#10;true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="11.6.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/st_ex1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Child_Process" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -410,18 +453,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_ex1" />
+      <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_doc1\nodejs.org_DOCS\Child_Process" />
       <recent name="D:\Node_Projects v.2\Node_Docs\Education\Timur_Video_JS" />
-      <recent name="D:\Node_Projects v.2\Node_Docs\Education\TSH_index\Current" />
-      <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_ex1\SetFunction\FuncDecor\ComposeFunction\Test" />
-      <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_ex1\SetFunction\FuncDecor" />
+      <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_doc1\js_Explorations\Antipatterns\Common" />
+      <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_doc1\nodejs.org_DOCS\Events\Polifills" />
+      <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_doc1\nodejs.org_DOCS\_node_js.SecondLevelAbstracts\Await\Examples" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_doc1\js_Explorations\Antipatterns\Common" />
       <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_doc1\js_Explorations" />
       <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_doc1" />
       <recent name="D:\Node_Projects v.2\Node_Docs\Education\TSH_index" />
       <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_doc1\js_DOCS\Object\AllWaysCreateObject\Inherits" />
-      <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_doc1\js_DOCS\Object\AllWaysCreateObject\DirectliDefine" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -492,8 +535,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.node" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.node" />
         <item itemvalue="npm.dev_Gzip" />
         <item itemvalue="npm.dev_gc_1" />
         <item itemvalue="Bash.7-trace-gc.sh" />
@@ -574,14 +617,7 @@
       <workItem from="1580563704587" duration="2270000" />
       <workItem from="1580566423188" duration="57000" />
       <workItem from="1580566656167" duration="32001000" />
-      <workItem from="1580716249733" duration="15279000" />
-    </task>
-    <task id="LOCAL-00147" summary="st_ini v.1">
-      <created>1578644354824</created>
-      <option name="number" value="00147" />
-      <option name="presentableId" value="LOCAL-00147" />
-      <option name="project" value="LOCAL" />
-      <updated>1578644354825</updated>
+      <workItem from="1580716249733" duration="28128000" />
     </task>
     <task id="LOCAL-00148" summary="Project_init1 v.1">
       <created>1578854234474</created>
@@ -919,7 +955,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580730737365</updated>
     </task>
-    <option name="localTasksCounter" value="196" />
+    <task id="LOCAL-00196" summary="ConsoleLog Position v.1">
+      <created>1580740941551</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
+      <option name="project" value="LOCAL" />
+      <updated>1580740941552</updated>
+    </task>
+    <option name="localTasksCounter" value="197" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -956,7 +999,6 @@
       <path value="$PROJECT_DIR$/Education/Timur_Video_Node.js/Project" />
       <path value="$PROJECT_DIR$/Education/Timur_Video_Node.js/part_5/Project" />
     </ignored-roots>
-    <MESSAGE value="SetGlobal AddPrototype ToObject Iterator v.1" />
     <MESSAGE value="asyncIterator v.1" />
     <MESSAGE value="AllWaysCreateObject v.1" />
     <MESSAGE value="appendChain v.1" />
@@ -981,6 +1023,7 @@
     <MESSAGE value="OwnSyntax NameTag v.3" />
     <MESSAGE value="OwnSyntax NameTag v.4" />
     <MESSAGE value="OwnSyntax NameTag v.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="OwnSyntax NameTag v.5" />
+    <MESSAGE value="ConsoleLog Position v.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="ConsoleLog Position v.1" />
   </component>
 </project>
