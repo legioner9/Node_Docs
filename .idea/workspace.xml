@@ -565,14 +565,7 @@
       <workItem from="1580563704587" duration="2270000" />
       <workItem from="1580566423188" duration="57000" />
       <workItem from="1580566656167" duration="32001000" />
-      <workItem from="1580716249733" duration="46555000" />
-    </task>
-    <task id="LOCAL-00153" summary="Fill empty Dir Test v.1">
-      <created>1579068549658</created>
-      <option name="number" value="00153" />
-      <option name="presentableId" value="LOCAL-00153" />
-      <option name="project" value="LOCAL" />
-      <updated>1579068549660</updated>
+      <workItem from="1580716249733" duration="48742000" />
     </task>
     <task id="LOCAL-00154" summary="TSH JS v.1">
       <created>1579249375515</created>
@@ -910,7 +903,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580830080563</updated>
     </task>
-    <option name="localTasksCounter" value="202" />
+    <task id="LOCAL-00202" summary="OwnSyntax v.3">
+      <created>1580879158322</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1580879158322</updated>
+    </task>
+    <option name="localTasksCounter" value="203" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -947,7 +947,6 @@
       <path value="$PROJECT_DIR$/Education/Timur_Video_Node.js/Project" />
       <path value="$PROJECT_DIR$/Education/Timur_Video_Node.js/part_5/Project" />
     </ignored-roots>
-    <MESSAGE value="npm backup v.1" />
     <MESSAGE value="npm backup v.2" />
     <MESSAGE value="SetFunction Curry v.1" />
     <MESSAGE value="CbTimeout v.1" />
@@ -972,6 +971,7 @@
     <MESSAGE value="DirAll v.1" />
     <MESSAGE value="OwnSyntax v.2" />
     <MESSAGE value="NameTagPrepositions.md v.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="NameTagPrepositions.md v.1" />
+    <MESSAGE value="OwnSyntax v.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="OwnSyntax v.3" />
   </component>
 </project>
