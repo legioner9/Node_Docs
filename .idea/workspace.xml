@@ -2,239 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9afba592-8010-4da3-9a4c-c297e817fafb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/Markdown_DOCS/Anchor.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/Markdown_DOCS/Backquotes.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/Markdown_DOCS/Code.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/Markdown_DOCS/Emphasis.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/Markdown_DOCS/Headers.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/Markdown_DOCS/Img.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/Markdown_DOCS/ImgWithAnchor.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/Markdown_DOCS/Li.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/Markdown_DOCS/Table.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/Markdown_DOCS/Tr.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Array/MaxElementReduse/maxReduser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Array/injectClassQueryFilter/injectToArea.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Function/FunctionPatterns/Callbacks/ExampleEventEmitter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Function/FunctionPatterns/Callbacks/callbackAsListener.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Function/FunctionPatterns/Callbacks/cbTimerCurry.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Function/FunctionPatterns/Callbacks/closureInnereStateEvent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Function/FunctionPatterns/Callbacks/namedPolyArgsCallback.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Function/FunctionPatterns/Callbacks/sum.console.bind.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Function/FunctionPatterns/ComposeFromReduse/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Function/FunctionPatterns/FunctionBindToObect/lateBinding.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Function/FunctionPatterns/FunctionGenerator/mdn_yield.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Function/FunctionPatterns/FunctionGenerator/mdn_yield~.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Function/FunctionPatterns/HigherOrderFunction/logable_simple.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Function/FunctionPatterns/HigherOrderFunction/memois_simple.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Function/FunctionPatterns/PartialApplication/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Function/FunctionPatterns/SintaxPolyExpression/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Function/FunctionPatterns/UseStaticInClosure/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Function/FunctionPatterns/UseStaticInClosure/2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Object/AllWaysCreateObject/Class/directDefineClassWithCtatic.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Object/AllWaysCreateObject/DirectlyDefine/directCreateFromClosureFunc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Object/AllWaysCreateObject/DirectlyDefine/directlyDefineMethWithThis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Object/AllWaysCreateObject/DirectlyDefine/directlyDefineMethWithThis_bind.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Object/AllWaysCreateObject/FunctionThis/dinamicThis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Object/AllWaysCreateObject/FunctionThis/directlyDefinePrototype.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Object/AllWaysCreateObject/Inherits/ChainPrototype/Test/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Object/AllWaysCreateObject/Inherits/ChainPrototype/Test/chain.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Object/AllWaysCreateObject/Inherits/ChainPrototype/chain.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Object/AllWaysCreateObject/Inherits/Example/injectClassInArrayOfArrays.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Object/AllWaysCreateObject/Inherits/classExtends.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Object/AllWaysCreateObject/Inherits/defPrototypeCallSetProtoOf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Object/AllWaysCreateObject/Inherits/defPrototypeCallSetProtoOf_chain.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Object/AllWaysCreateObject/Inherits/defPrototypeCallSetProtoOf_twice.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Object/AllWaysCreateObject/Inherits/injectClassInObject.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Object/ObjectSerializeToOther/obj[Simbol.asyncIterator].js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Object/ObjectSerializeToOther/obj[Simbol.asyncIterator]_2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Object/ProtectedFieldFromClosure/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Object/PrototipeDinamicCreate/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/Object/newObject/classAndStaticMethid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/RegExp/MDN/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/RegExp/MDN/Discription.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/RegExp/TSH/JavaScript/1-syntax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/RegExp/TSH/JavaScript/2-regexp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/RegExp/TSH/JavaScript/3-match.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/RegExp/TSH/JavaScript/4-split.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/RegExp/TSH/JavaScript/5-replace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/RegExp/TSH/JavaScript/6-replace-fn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/RegExp/TSH/JavaScript/7-search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/String/MDN/String.raw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/String/MDN/fromCodePoint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/String/MDN/matchAll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/String/TSH/JavaScript/0-unicode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/String/TSH/JavaScript/1-simple.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/String/TSH/JavaScript/2-methods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/String/TSH/JavaScript/3-parts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/String/TSH/JavaScript/4-modify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/String/TSH/JavaScript/5-sub.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/String/TSH/JavaScript/6-polyfill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/String/TSH/JavaScript/7-pad.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/String/TSH/JavaScript/8-tag.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/String/TSH/JavaScript/9-styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_DOCS/String/TSH/JavaScript/fromCodePoint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/Common/01-Common/1-bad-names.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/Common/01-Common/2-magic-num.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/Common/01-Common/3-hard-code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/Common/01-Common/4-duplicate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/Common/01-Common/5-cryptic-code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/Common/01-Common/6-copy-paste.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/Common/01-Common/7-improbability.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/Common/01-Common/8-foolproof.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/Common/01-Common/9-spaghetti.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/Common/01-Common/a-comments.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/Common/01-Common/b-silver-bullet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/Common/01-Common/c-nih.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/Common/01-Common/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/Common/01-Common/d-complexity.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/Common/LayerAwait.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/Common/WhereTreadError.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/Common/hard-code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/Common/inconsistent_names.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Antipatterns/Common/non_descriptive_names.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Feachures/destructuring.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Feachures/md_docs.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/OwnSyntax/NameTag.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/OwnSyntax/NameTagPrepositions.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/OwnSyntax/Tmp/set v.1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/OwnSyntax/Tmp/set_2 v.1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/OwnSyntax/Tmp/set_3 v.1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/OwnSyntax/Tmp/set_4 v.1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/OwnSyntax/Tmp/set_prepositions v.1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Additional/DOC/Coverage/memoryUsageLog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/ContextsFunc/DOC/Coverage/callback_context.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Events/DOC/Coverage/newListener#2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Events/DOC/Coverage/removeListener.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Mutexes/DOC/Coverage/master_class_BinAtomicsMUTX.v1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Semaphores/DOC/Coverage/ClassSemaphore_1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Http/Any_Serves/http_advanced_srv_client/Way/client.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Http/Any_Serves/http_advanced_srv_client/Way/serv_advanced.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Http/Any_Serves/http_advanced_srv_client/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Http/Any_Serves/http_simple_srv_client/Way/client.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Http/Any_Serves/http_simple_srv_client/Way/res_body.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Http/Any_Serves/http_simple_srv_client/Way/serv_rout_simple.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Http/Any_Serves/http_simple_srv_client/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Http/basic.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/HttpThreads/http.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/HttpThreads/master.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Serv_cacheFs/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Serv_cacheFs/H_handlerServ_with_cache.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Serv_cacheFs/I_getCache_startServ.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Serv_cacheFs/L_watchFs_returnCache.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Serv_cacheFs/S_serv_with_handler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Serv_cacheModuleMethods/Additional/gc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Serv_cacheModuleMethods/Additional/memoryUsageLog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Serv_cacheModuleMethods/Additional/processServing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Serv_cacheModuleMethods/H_handlerServ_with_cache.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Serv_cacheModuleMethods/I_getCache_startServ.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Serv_cacheModuleMethods/L_watchFs_returnCache.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Serv_cacheModuleMethods/S_serv_with_handler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Serv_cacheModuleMethods/lib/submodule1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Serv_cacheModuleMethods/lib/submodule2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Serv_cacheModuleMethods/lib/submodule3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Servers/Telnet/client_once_world.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/Streams/DOC/Coverage/Index_str_pipe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/StringFunc/DOC/Coverage/templ_string.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/WarningErrors/DOC/Coverage/Events/error.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/WarningErrors/DOC/Coverage/Process/promise_err_warn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Services/WarningErrors/DOC/Coverage/Server/server_errors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Src/Dictionary-master.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Src/Dictionary-master/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/js_Explorations/Src/Dictionary-master/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/ComandLine/Box/Coverage/0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/ComandLine/Box/Features/0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/ComandLine/Box/Hist/Tests/0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/ComandLine/Box/Pres/0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/ComandLine/Box/Release/0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/ComandLine/Box/Tmp/0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/ComandLine/DOC/Box/Coverage/0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/ComandLine/DOC/Box/Features/0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/ComandLine/DOC/Box/Hist/Tests/0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/ComandLine/DOC/Box/Pres/0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/ComandLine/DOC/Box/Release/0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/ComandLine/DOC/Box/Tmp/0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/ComandLine/DOC/Coverage/0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/ComandLine/DOC/Release/0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Console/Cursor/Position.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Console/Docs/console.assert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Console/Docs/console.dir.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Console/Docs/console.group.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Console/Docs/console.table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Console/Docs/console.timeLog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Console/Docs/console.trace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Console/Docs/console.warn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Console/Docs/newConsole.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Events/Polifills/TSHcryptic.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Fs/Fs.Promises/readFile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Readline/Box/Coverage/0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Readline/Box/Features/0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Readline/Box/Hist/Tests/0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Readline/Box/Pres/0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Readline/Box/Release/0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Readline/Box/Tmp/0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Readline/DOC/Box/Coverage/0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Readline/DOC/Box/Features/0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Readline/DOC/Box/Hist/Tests/0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Readline/DOC/Box/Pres/0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Readline/DOC/Box/Release/0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Readline/DOC/Box/Tmp/0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Readline/DOC/Coverage/0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Readline/DOC/Release/0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Readline/TSH/JavaScript/1-console.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Readline/TSH/JavaScript/2-readline.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Readline/TSH/JavaScript/3-prompt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Readline/TSH/JavaScript/4-cli.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Readline/TSH/JavaScript/5-table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Readline/TSH/JavaScript/6-group.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Readline/TSH/JavaScript/7-login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Readline/TSH/JavaScript/8-utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/Readline/TSH/JavaScript/9-raw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/nodejs.org_DOCS/_node_js.SecondLevelAbstracts/Await/Examples/fsCacheWatchFileDir.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetAdd/Cb/cbTimeout/Test/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetAdd/Cb/cbTimeout/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetAdd/Cb/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetAdd/PartOne/PathToName/Test/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetAdd/PartOne/PathToName/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetConsole/ConsoleLog/Position/ANSI Escape codes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetConsole/ConsoleLog/Position/Test/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetConsole/ConsoleLog/Position/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetConsole/ConsoleLog/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetConsole/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetFunction/Cb/CbTimeout/Test/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetFunction/Cb/CbTimeout/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetFunction/Cb/_/Test/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetFunction/Cb/_/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetFunction/Cb/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetFunction/FuncDecor/ComposeFunction/Test/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetFunction/FuncDecor/ComposeFunction/Test/2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetFunction/FuncDecor/ComposeFunction/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetFunction/FuncDecor/Curry/Test/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetFunction/FuncDecor/Curry/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetGlobal/AddPrototipe/ToConsole/DirAll/Test/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetGlobal/AddPrototipe/ToConsole/DirAll/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetGlobal/AddPrototipe/ToConsole/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetGlobal/AddPrototipe/ToObject/AppendChainPrototype/Test/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetGlobal/AddPrototipe/ToObject/AppendChainPrototype/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetGlobal/AddPrototipe/ToObject/Iterator/Test/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetGlobal/AddPrototipe/ToObject/Iterator/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetGlobal/AddPrototipe/ToObject/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetGlobal/AddPrototipe/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetGlobal/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetRegExp/__/_/Test/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetRegExp/__/_/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetRegExp/__/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetRegExp/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetString/AnalysisToWord/SortUniqueContent/Test/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetString/AnalysisToWord/SortUniqueContent/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetString/AnalysisToWord/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetString/TemplateString/AnalyseTemplate/Test/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetString/TemplateString/AnalyseTemplate/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetString/TemplateString/SinteseTemplate/Test/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetString/TemplateString/SinteseTemplate/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetString/TemplateString/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/SetString/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/Set_/_/Test/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_ex1/Set__/__/_/Test/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/Knowlege/OwnSyntax/NameTag.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/Knowlege/OwnSyntax/NameTagPrepositions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/Knowlege/OwnSyntax/Tmp/set v.1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/Knowlege/OwnSyntax/Tmp/set_2 v.1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/Knowlege/OwnSyntax/Tmp/set_3 v.1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/Knowlege/OwnSyntax/Tmp/set_4 v.1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/Knowlege/OwnSyntax/Tmp/set_prepositions v.1.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -610,7 +384,7 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/Jobs/SetGlobLoggers/ModLogger_1/Core/Logs/eLogs.txt&#10;true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="11.6.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/st_doc1/Knowlege" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -714,11 +488,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Bash.7-trace-gc.sh" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.node" />
         <item itemvalue="npm.dev_Gzip" />
         <item itemvalue="npm.dev_gc_1" />
-        <item itemvalue="Bash.7-trace-gc.sh" />
       </list>
     </recent_temporary>
   </component>
@@ -797,14 +571,7 @@
       <workItem from="1580566423188" duration="57000" />
       <workItem from="1580566656167" duration="32001000" />
       <workItem from="1580716249733" duration="53603000" />
-      <workItem from="1580909129398" duration="2967000" />
-    </task>
-    <task id="LOCAL-00156" summary="ITDVN video delete v.1">
-      <created>1579271707171</created>
-      <option name="number" value="00156" />
-      <option name="presentableId" value="LOCAL-00156" />
-      <option name="project" value="LOCAL" />
-      <updated>1579271707174</updated>
+      <workItem from="1580909129398" duration="3349000" />
     </task>
     <task id="LOCAL-00157" summary="Array thisArgCallback v.1">
       <created>1579447459777</created>
@@ -1142,7 +909,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580915235426</updated>
     </task>
-    <option name="localTasksCounter" value="205" />
+    <task id="LOCAL-00205" summary="Npm Update v.2">
+      <created>1580915361299</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1580915361299</updated>
+    </task>
+    <option name="localTasksCounter" value="206" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1179,7 +953,6 @@
       <path value="$PROJECT_DIR$/Education/Timur_Video_Node.js/Project" />
       <path value="$PROJECT_DIR$/Education/Timur_Video_Node.js/part_5/Project" />
     </ignored-roots>
-    <MESSAGE value="CbTimeout v.1" />
     <MESSAGE value="SetStrings TemplateString v.1" />
     <MESSAGE value="SetStrings SortUniqueContent v.1" />
     <MESSAGE value="RegExp TSH end v.1" />
@@ -1204,6 +977,7 @@
     <MESSAGE value="OwnSyntax v.3" />
     <MESSAGE value="OwnSyntax v.4" />
     <MESSAGE value="Npm Update v.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Npm Update v.1" />
+    <MESSAGE value="Npm Update v.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Npm Update v.2" />
   </component>
 </project>
