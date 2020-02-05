@@ -33,11 +33,11 @@
   "dependencies": {
     "express": "^4.17.1",
     "metasync": "^0.3.31",
-    "node": "^13.6.0",
+    "node": "^13.7.0",
     "npm-check-updates": "^4.0.1",
     "request": "^2.88.0",
-    "st_doc1": "^1.0.14",
-    "st_ex1": "^1.2.19",
-    "st_ini": "^1.0.4"
+    "st_doc1": "^1.0.18",
+    "st_ex1": "^1.2.25",
+    "st_ini": "^1.0.10"
   }
 }

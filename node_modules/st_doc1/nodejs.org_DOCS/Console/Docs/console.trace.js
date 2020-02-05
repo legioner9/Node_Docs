@@ -1,1 +1,0 @@
-console.trace ( 'str', [ 1, 2 ] );
