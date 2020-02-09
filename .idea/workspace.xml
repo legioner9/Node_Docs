@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9afba592-8010-4da3-9a4c-c297e817fafb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/Knowlege/OwnSyntax/NameTag.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/Knowlege/OwnSyntax/NameTagPrepositions.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/Knowlege/OwnSyntax/Tmp/set v.1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/Knowlege/OwnSyntax/Tmp/set_2 v.1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/Knowlege/OwnSyntax/Tmp/set_3 v.1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/Knowlege/OwnSyntax/Tmp/set_4 v.1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/st_doc1/Knowlege/OwnSyntax/Tmp/set_prepositions v.1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Knowledge/OwnSyntax/Tmp/set v.1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/Knowledge/OwnSyntax/Tmp/set v.1.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -384,7 +379,7 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/Jobs/SetGlobLoggers/ModLogger_1/Core/Logs/eLogs.txt&#10;true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="11.6.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/st_doc1/Knowlege" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Node_Docs_II" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -401,23 +396,23 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
     <property name="ts.external.directory.path" value="D:\Program Files_new\JetBrains\IntelliJ IDEA 2019.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Node_Projects v.2\Node_Docs\NPM_\ST_DOC" />
-      <recent name="D:\Node_Projects v.2\Node_Docs\NPM_\ST_EX" />
-      <recent name="D:\Node_Projects v.2\Node_Docs\NPM_\ST_INI" />
-      <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_doc1\js_Explorations\OwnSyntax\Tmp" />
-      <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_doc1\nodejs.org_DOCS\Readline" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_doc1\nodejs.org_DOCS" />
       <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_doc1\js_Explorations\Antipatterns\Common" />
       <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_doc1\js_Explorations" />
       <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_doc1" />
       <recent name="D:\Node_Projects v.2\Node_Docs\Education\TSH_index" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_doc1\Knowlege" />
+      <recent name="D:\Node_Projects v.2\Node_Docs\NPM_\ST_DOC" />
+      <recent name="D:\Node_Projects v.2\Node_Docs\NPM_\ST_EX" />
+      <recent name="D:\Node_Projects v.2\Node_Docs\NPM_\ST_INI" />
+      <recent name="D:\Node_Projects v.2\Node_Docs\node_modules\st_doc1\js_Explorations\OwnSyntax\Tmp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -571,14 +566,9 @@
       <workItem from="1580566423188" duration="57000" />
       <workItem from="1580566656167" duration="32001000" />
       <workItem from="1580716249733" duration="53603000" />
-      <workItem from="1580909129398" duration="3349000" />
-    </task>
-    <task id="LOCAL-00157" summary="Array thisArgCallback v.1">
-      <created>1579447459777</created>
-      <option name="number" value="00157" />
-      <option name="presentableId" value="LOCAL-00157" />
-      <option name="project" value="LOCAL" />
-      <updated>1579447459778</updated>
+      <workItem from="1580909129398" duration="6310000" />
+      <workItem from="1580951025495" duration="1189000" />
+      <workItem from="1581241683675" duration="644000" />
     </task>
     <task id="LOCAL-00158" summary="Array thisArgCallback v.2">
       <created>1579509423739</created>
@@ -916,7 +906,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580915361299</updated>
     </task>
-    <option name="localTasksCounter" value="206" />
+    <task id="LOCAL-00206" summary="Knowledge v.1">
+      <created>1580915830752</created>
+      <option name="number" value="00206" />
+      <option name="presentableId" value="LOCAL-00206" />
+      <option name="project" value="LOCAL" />
+      <updated>1580915830753</updated>
+    </task>
+    <option name="localTasksCounter" value="207" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -953,7 +950,6 @@
       <path value="$PROJECT_DIR$/Education/Timur_Video_Node.js/Project" />
       <path value="$PROJECT_DIR$/Education/Timur_Video_Node.js/part_5/Project" />
     </ignored-roots>
-    <MESSAGE value="SetStrings TemplateString v.1" />
     <MESSAGE value="SetStrings SortUniqueContent v.1" />
     <MESSAGE value="RegExp TSH end v.1" />
     <MESSAGE value="Npm Up v.1" />
@@ -978,6 +974,7 @@
     <MESSAGE value="OwnSyntax v.4" />
     <MESSAGE value="Npm Update v.1" />
     <MESSAGE value="Npm Update v.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Npm Update v.2" />
+    <MESSAGE value="Knowledge v.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Knowledge v.1" />
   </component>
 </project>
