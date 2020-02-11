@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9afba592-8010-4da3-9a4c-c297e817fafb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Knowledge/OwnSyntax/Tmp/set v.1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/Knowledge/OwnSyntax/Tmp/set v.1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Knowledge/Git/Conspects/progit_v2.1.49/1.md.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/Knowledge/Git/Conspects/progit_v2.1.49/1.md.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/st_doc1/Knowledge/Git/Conspects/progit_v2.1.49/cmd_set_comand.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/st_doc1/Knowledge/Git/Conspects/progit_v2.1.49/cmd_set_comand.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -379,7 +380,7 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/Jobs/SetGlobLoggers/ModLogger_1/Core/Logs/eLogs.txt&#10;true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="11.6.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Node_Docs_II" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -568,14 +569,9 @@
       <workItem from="1580716249733" duration="53603000" />
       <workItem from="1580909129398" duration="6310000" />
       <workItem from="1580951025495" duration="1189000" />
-      <workItem from="1581241683675" duration="644000" />
-    </task>
-    <task id="LOCAL-00158" summary="Array thisArgCallback v.2">
-      <created>1579509423739</created>
-      <option name="number" value="00158" />
-      <option name="presentableId" value="LOCAL-00158" />
-      <option name="project" value="LOCAL" />
-      <updated>1579509423742</updated>
+      <workItem from="1581241683675" duration="1113000" />
+      <workItem from="1581263612317" duration="557000" />
+      <workItem from="1581430301069" duration="783000" />
     </task>
     <task id="LOCAL-00159" summary="BackUp Npm v.1">
       <created>1579510771406</created>
@@ -913,7 +909,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580915830753</updated>
     </task>
-    <option name="localTasksCounter" value="207" />
+    <task id="LOCAL-00207" summary="Knowledge v.2">
+      <created>1581242682480</created>
+      <option name="number" value="00207" />
+      <option name="presentableId" value="LOCAL-00207" />
+      <option name="project" value="LOCAL" />
+      <updated>1581242682483</updated>
+    </task>
+    <option name="localTasksCounter" value="208" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -950,7 +953,6 @@
       <path value="$PROJECT_DIR$/Education/Timur_Video_Node.js/Project" />
       <path value="$PROJECT_DIR$/Education/Timur_Video_Node.js/part_5/Project" />
     </ignored-roots>
-    <MESSAGE value="SetStrings SortUniqueContent v.1" />
     <MESSAGE value="RegExp TSH end v.1" />
     <MESSAGE value="Npm Up v.1" />
     <MESSAGE value="Markdown docs v.1" />
@@ -975,6 +977,7 @@
     <MESSAGE value="Npm Update v.1" />
     <MESSAGE value="Npm Update v.2" />
     <MESSAGE value="Knowledge v.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Knowledge v.1" />
+    <MESSAGE value="Knowledge v.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Knowledge v.2" />
   </component>
 </project>
