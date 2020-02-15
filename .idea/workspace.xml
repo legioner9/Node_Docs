@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9afba592-8010-4da3-9a4c-c297e817fafb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Node_Docs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Node_Docs.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -378,7 +379,7 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/Jobs/SetGlobLoggers/ModLogger_1/Core/Logs/eLogs.txt&#10;true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="11.6.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/NPM_/ST_DOC" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -570,14 +571,7 @@
       <workItem from="1581241683675" duration="1113000" />
       <workItem from="1581263612317" duration="557000" />
       <workItem from="1581430301069" duration="1928000" />
-      <workItem from="1581477950886" duration="2815000" />
-    </task>
-    <task id="LOCAL-00161" summary="BackUp Npm v.1">
-      <created>1579517499034</created>
-      <option name="number" value="00161" />
-      <option name="presentableId" value="LOCAL-00161" />
-      <option name="project" value="LOCAL" />
-      <updated>1579517499034</updated>
+      <workItem from="1581477950886" duration="3278000" />
     </task>
     <task id="LOCAL-00162" summary="FunctionPatterns v.1">
       <created>1579595115720</created>
@@ -915,7 +909,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581486974458</updated>
     </task>
-    <option name="localTasksCounter" value="210" />
+    <task id="LOCAL-00210" summary="Npm Update v.2">
+      <created>1581487996877</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
+      <option name="project" value="LOCAL" />
+      <updated>1581487996877</updated>
+    </task>
+    <option name="localTasksCounter" value="211" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -972,11 +973,11 @@
     <MESSAGE value="NameTagPrepositions.md v.1" />
     <MESSAGE value="OwnSyntax v.3" />
     <MESSAGE value="OwnSyntax v.4" />
-    <MESSAGE value="Npm Update v.2" />
     <MESSAGE value="Knowledge v.1" />
     <MESSAGE value="Knowledge v.2" />
     <MESSAGE value="PowerShell v.1" />
     <MESSAGE value="Npm Update v.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Npm Update v.1" />
+    <MESSAGE value="Npm Update v.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Npm Update v.2" />
   </component>
 </project>
