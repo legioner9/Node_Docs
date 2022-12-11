@@ -30,7 +30,7 @@
     "ndb-inspect": "^0.0.1"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "legioner9_ex2": "^1.0.1",
     "metasync": "^0.3.31",
     "node": "^13.5.0",
